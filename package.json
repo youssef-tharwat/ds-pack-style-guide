@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukasoppermann/design-token-transformer.git"
+    "url": "git+https://github.com/youssef-tharwat/ds-pack-style-guide"
   },
   "author": "Lukas Oppermann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukasoppermann/design-token-transformer/issues"
+    "url": "https://github.com/youssef-tharwat/ds-pack-style-guide/issues"
   },
-  "homepage": "https://github.com/lukasoppermann/design-token-transformer#readme"
+  "homepage": "https://github.com/youssef-tharwat/ds-pack-style-guide#readme"
 }

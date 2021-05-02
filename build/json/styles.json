@@ -21,7 +21,7 @@
   "Success200": "rgba(209, 245, 238, 1)",
   "Success300": "rgba(152, 210, 198, 1)",
   "Success400": "rgba(114, 190, 174, 1)",
-  "Success500": "rgba(0, 153, 119, 1)",
+  "Success500": "rgba(153, 110, 0, 1)",
   "Success600": "rgba(0, 128, 93, 1)",
   "Warning100": "rgba(251, 243, 226, 1)",
   "Warning200": "rgba(252, 234, 198, 1)",

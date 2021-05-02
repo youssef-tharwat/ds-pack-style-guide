@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Sun, 02 May 2021 13:42:37 GMT
+// Generated on Sun, 02 May 2021 16:52:06 GMT
 //
 
 
@@ -464,7 +464,7 @@ public class StyleDictionary {
     public static let success200 = rgba(209, 245, 238, 1)
     public static let success300 = rgba(152, 210, 198, 1)
     public static let success400 = rgba(114, 190, 174, 1)
-    public static let success500 = rgba(0, 153, 119, 1)
+    public static let success500 = rgba(153, 110, 0, 1)
     public static let success600 = rgba(0, 128, 93, 1)
     public static let test = rgba(0, 0, 1, 1)
     public static let warning100 = rgba(251, 243, 226, 1)

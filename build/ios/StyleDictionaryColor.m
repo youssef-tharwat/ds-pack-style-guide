@@ -3,7 +3,7 @@
 // StyleDictionaryColor.m
 //
 // Do not edit directly
-// Generated on Sun, 02 May 2021 11:49:35 GMT
+// Generated on Sun, 02 May 2021 12:02:05 GMT
 //
 
 #import "StyleDictionaryColor.h"
@@ -21,14 +21,45 @@
 
   dispatch_once(&onceToken, ^{
     colorArray = @[
-[UIColor colorWithRed:0.800f green:0.800f blue:0.800f alpha:1.000f],
-[UIColor colorWithRed:0.600f green:0.600f blue:0.600f alpha:1.000f],
-[UIColor colorWithRed:0.067f green:0.067f blue:0.067f alpha:1.000f],
-[UIColor colorWithRed:1.000f green:0.000f blue:0.000f alpha:1.000f],
-[UIColor colorWithRed:0.000f green:1.000f blue:0.000f alpha:1.000f],
-[UIColor colorWithRed:1.000f green:0.000f blue:0.000f alpha:1.000f],
-[UIColor colorWithRed:0.000f green:1.000f blue:0.000f alpha:1.000f],
-[UIColor colorWithRed:0.800f green:0.800f blue:0.800f alpha:1.000f]
+rgba(0, 0, 0, 1),
+rgba(255, 255, 255, 1),
+rgba(0, 0, 1, 1),
+rgba(247, 247, 252, 1),
+rgba(247, 247, 252, 1),
+rgba(239, 240, 246, 1),
+rgba(217, 219, 233, 1),
+rgba(160, 163, 189, 1),
+rgba(110, 113, 145, 1),
+rgba(78, 75, 102, 1),
+rgba(50, 47, 70, 1),
+rgba(20, 20, 43, 1),
+rgba(229, 248, 255, 1),
+rgba(208, 232, 245, 1),
+rgba(162, 209, 235, 1),
+rgba(69, 163, 216, 1),
+rgba(3, 80, 123, 1),
+rgba(0, 115, 178, 1),
+rgba(237, 246, 244, 1),
+rgba(209, 245, 238, 1),
+rgba(152, 210, 198, 1),
+rgba(114, 190, 174, 1),
+rgba(0, 153, 119, 1),
+rgba(0, 128, 93, 1),
+rgba(251, 243, 226, 1),
+rgba(252, 234, 198, 1),
+rgba(253, 225, 169, 1),
+rgba(229, 194, 121, 1),
+rgba(226, 162, 31, 1),
+rgba(181, 129, 23, 1),
+rgba(251, 239, 239, 1),
+rgba(243, 204, 204, 1),
+rgba(243, 172, 172, 1),
+rgba(229, 128, 128, 1),
+rgba(204, 0, 0, 1),
+rgba(153, 0, 0, 1),
+rgba(0, 0, 0, 0.05),
+rgba(0, 0, 0, 0.04),
+rgba(0, 0, 0, 0.04)
     ];
   });
 

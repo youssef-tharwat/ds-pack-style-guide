@@ -46,7 +46,7 @@
       "buildPath": "build/js/",
       "files": [
         {
-          "destination": "variables.js",
+          "destination": "tokens.js",
           "format": "javascript/module"
         }
       ]

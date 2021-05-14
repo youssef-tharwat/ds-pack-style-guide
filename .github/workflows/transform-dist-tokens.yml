@@ -8,8 +8,7 @@ on:
 # the following defines the jon that is run if the above is true
 jobs:
   build:
-    # the name for the entire job
-    name: request_build_publish
+    name: style_guide_build
     runs-on: ubuntu-latest
     steps:
       # this lets us work in the actual repository
@@ -48,7 +47,7 @@ jobs:
       - name: Persist changes in repository
         uses: mikeal/publish-to-github-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
           BRANCH_NAME: "main"
   distribute_web:

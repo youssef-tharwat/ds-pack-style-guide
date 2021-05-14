@@ -75,7 +75,7 @@ jobs:
       - id: get_release
         uses: pozetroninc/github-action-get-latest-release@master
         with:
-          repository: "youssef-tharwat/ds-pack-web-lib"
+          repository: "youssef-tharwat/ds-pack-style-guide"
 
       - name: Create pull request
         uses: dmnemec/copy_file_to_another_repo_action@main

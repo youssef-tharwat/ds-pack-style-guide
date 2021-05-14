@@ -3,7 +3,7 @@ name: Deliver Tokens To Web Consumer
 on:
   push:
     paths:
-      - 'build/js/variables.js'
+      - 'build/js/**'
 
 jobs:
   pull-request:

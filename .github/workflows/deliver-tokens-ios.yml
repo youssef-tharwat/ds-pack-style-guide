@@ -1,1 +1,26 @@
-# name: Deliver Tokens To IOS Consumer
+name: Deliver Tokens To IOS Consumer
+
+on:
+  push:
+    paths:
+      - "null"
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Create pull request
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_folder: "build/js"
+          destination_repo: "youssef-tharwat/ds-pack-web-lib"
+          destination_folder: "src/vendors/tailwind/tokens"
+          destination_base_branch: "main"
+          destination_head_branch: "production"
+          user_email: "yousseftharwat.khalil@gmail.com"
+          user_name: "youssef-tharwat"

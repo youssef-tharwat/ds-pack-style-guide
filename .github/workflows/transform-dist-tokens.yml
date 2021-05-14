@@ -72,13 +72,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set env
-        run: echo "RELEASE_VERSION=`echo $(git describe --tags --abbrev=0)`" >> $GITHUB_ENV
-
-      - name: Test
-        run: |
-          echo $RELEASE_VERSION
-          echo ${{ env.RELEASE_VERSION }}
+      - id: get_release
+        uses: pozetroninc/github-action-get-latest-release@master
+        with:
+          repository: "youssef-tharwat/ds-pack-web-lib"
 
       - name: Create pull request
         uses: dmnemec/copy_file_to_another_repo_action@main
@@ -89,7 +86,7 @@ jobs:
           destination_repo: "youssef-tharwat/ds-pack-web-lib"
           destination_folder: "src/vendors/tailwind/tokens"
           destination_branch: "main"
-          destination_branch_create: "design-tokens-update-${{env.RELEASE_VERSION}}"
+          destination_branch_create: "design-tokens-update-${{ steps.get_release.outputs.release }}"
           user_email: "yousseftharwat.khalil@gmail.com"
           user_name: "youssef-tharwat"
           commit_message: "Design tokens update"

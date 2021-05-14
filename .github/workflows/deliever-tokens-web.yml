@@ -19,8 +19,8 @@ jobs:
         with:
           source_folder: "build/js/tokens.js"
           destination_repo: "youssef-tharwat/ds-pack-web-lib"
-          # destination_folder: "src/vendors/tailwind/tokens"
+          destination_folder: "/src/vendors/tailwind/tokens"
           destination_base_branch: "main"
-          destination_head_branch: "production"
+          destination_head_branch: "design-tokens-update"
           user_email: "yousseftharwat.khalil@gmail.com"
           user_name: "youssef-tharwat"

@@ -53,7 +53,8 @@ jobs:
           BRANCH_NAME: "main"
   distribute_web:
     runs-on: ubuntu-latest
-    if: success()
+    needs: [build]
+    if: ${{ success() }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -70,3 +71,5 @@ jobs:
           destination_head_branch: "design-tokens-update"
           user_email: "yousseftharwat.khalil@gmail.com"
           user_name: "youssef-tharwat"
+  # distribute_andriod:
+  # distribute_ios:

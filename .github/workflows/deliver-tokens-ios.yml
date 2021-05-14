@@ -1,6 +1,6 @@
 name: Deliver Tokens To IOS Consumer
 
-on:
-  push:
-    paths:
-      - "build/ios"
+# on:
+#   push:
+#     paths:
+#       - "build/ios"

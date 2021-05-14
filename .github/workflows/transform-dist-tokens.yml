@@ -1,5 +1,5 @@
 # Name of the action visible in the action overview
-name: Transform tokens send from figma
+name: Transform tokens send from figma & distribute
 # this triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
 on:
   repository_dispatch:
@@ -51,3 +51,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
           # this parameter is optional and defaults to master but I am using main
           BRANCH_NAME: "main"
+  distribute_web:
+    runs-on: ubuntu-latest
+    if: success()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Create pull request
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_folder: "build/js/tokens.js"
+          destination_repo: "youssef-tharwat/ds-pack-web-lib"
+          destination_folder: "src/vendors/tailwind/tokens"
+          destination_base_branch: "main"
+          destination_head_branch: "design-tokens-update"
+          user_email: "yousseftharwat.khalil@gmail.com"
+          user_name: "youssef-tharwat"

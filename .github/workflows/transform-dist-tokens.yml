@@ -81,16 +81,17 @@ jobs:
           echo ${{ env.RELEASE_VERSION }}
 
       - name: Create pull request
-        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_folder: "build/js/tokens.js"
+          source_file: "build/js/tokens.js"
           destination_repo: "youssef-tharwat/ds-pack-web-lib"
           destination_folder: "src/vendors/tailwind/tokens"
-          destination_base_branch: "main"
-          destination_head_branch: "design-tokens-update-${{env.RELEASE_VERSION}}"
+          destination_branch: "main"
+          destination_branch_create: "design-tokens-update-${{env.RELEASE_VERSION}}"
           user_email: "yousseftharwat.khalil@gmail.com"
           user_name: "youssef-tharwat"
+          commit_message: "Design tokens update"
   # distribute_andriod:
   # distribute_ios:

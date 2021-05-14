@@ -39,11 +39,11 @@ jobs:
       - name: Transform design tokens
         run: "npm i && npm run transform-tokens"
       # We now release to NPM
-      - name: NPM release
-        uses: mikeal/merge-release@master
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      # - name: NPM release
+      #   uses: mikeal/merge-release@master
+      #   env:
+      #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #       NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       # We now store the changes in the repository
       - name: Persist changes in repository
         uses: mikeal/publish-to-github-action@master

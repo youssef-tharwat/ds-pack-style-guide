@@ -3,7 +3,7 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Fri, 14 May 2021 09:11:30 GMT
+// Generated on Fri, 14 May 2021 09:54:51 GMT
 //
 
 #import "StyleDictionarySize.h"
@@ -46,12 +46,12 @@ float const DesktopDisplayHugeBoldLetterSpacing = 1;
 float const DesktopDisplayHugeBoldLineHeight = 72;
 float const DesktopDisplayHugeBoldParagraphIndent = 0;
 float const DesktopDisplayHugeBoldParagraphSpacing = 0;
-float const DesktopDisplayLaregBoldFontSize = 50;
-float const DesktopDisplayLaregBoldFontWeight = 700;
-float const DesktopDisplayLaregBoldLetterSpacing = 1;
-float const DesktopDisplayLaregBoldLineHeight = 64;
-float const DesktopDisplayLaregBoldParagraphIndent = 0;
-float const DesktopDisplayLaregBoldParagraphSpacing = 0;
+float const DesktopDisplayLargeBoldFontSize = 50;
+float const DesktopDisplayLargeBoldFontWeight = 700;
+float const DesktopDisplayLargeBoldLetterSpacing = 1;
+float const DesktopDisplayLargeBoldLineHeight = 64;
+float const DesktopDisplayLargeBoldParagraphIndent = 0;
+float const DesktopDisplayLargeBoldParagraphSpacing = 0;
 float const DesktopDisplayMediumBoldFontSize = 40;
 float const DesktopDisplayMediumBoldFontWeight = 700;
 float const DesktopDisplayMediumBoldLetterSpacing = 1;

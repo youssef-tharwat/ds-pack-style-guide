@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Fri, 14 May 2021 09:11:30 GMT
+// Generated on Fri, 14 May 2021 09:54:51 GMT
 //
 
 
@@ -133,18 +133,18 @@ public class StyleDictionary {
     public static let desktopDisplayHugeParagraphSpacing = 0
     public static let desktopDisplayHugeTextCase = none
     public static let desktopDisplayHugeTextDecoration = none
-    public static let desktopDisplayLaregBoldFontFamily = Poppins
-    public static let desktopDisplayLaregBoldFontSize = 50
-    public static let desktopDisplayLaregBoldFontStretch = normal
-    public static let desktopDisplayLaregBoldFontStyle = normal
-    public static let desktopDisplayLaregBoldFontStyleOld = Bold
-    public static let desktopDisplayLaregBoldFontWeight = 700
-    public static let desktopDisplayLaregBoldLetterSpacing = 1
-    public static let desktopDisplayLaregBoldLineHeight = 64
-    public static let desktopDisplayLaregBoldParagraphIndent = 0
-    public static let desktopDisplayLaregBoldParagraphSpacing = 0
-    public static let desktopDisplayLaregBoldTextCase = none
-    public static let desktopDisplayLaregBoldTextDecoration = none
+    public static let desktopDisplayLargeBoldFontFamily = Poppins
+    public static let desktopDisplayLargeBoldFontSize = 50
+    public static let desktopDisplayLargeBoldFontStretch = normal
+    public static let desktopDisplayLargeBoldFontStyle = normal
+    public static let desktopDisplayLargeBoldFontStyleOld = Bold
+    public static let desktopDisplayLargeBoldFontWeight = 700
+    public static let desktopDisplayLargeBoldLetterSpacing = 1
+    public static let desktopDisplayLargeBoldLineHeight = 64
+    public static let desktopDisplayLargeBoldParagraphIndent = 0
+    public static let desktopDisplayLargeBoldParagraphSpacing = 0
+    public static let desktopDisplayLargeBoldTextCase = none
+    public static let desktopDisplayLargeBoldTextDecoration = none
     public static let desktopDisplayLargeFontFamily = Poppins
     public static let desktopDisplayLargeFontSize = 50
     public static let desktopDisplayLargeFontStretch = normal
@@ -464,7 +464,7 @@ public class StyleDictionary {
     public static let success200 = rgba(209, 245, 238, 1)
     public static let success300 = rgba(152, 210, 198, 1)
     public static let success400 = rgba(114, 190, 174, 1)
-    public static let success500 = rgba(153, 110, 0, 1)
+    public static let success500 = rgba(8, 160, 247, 1)
     public static let success600 = rgba(0, 128, 93, 1)
     public static let test = rgba(0, 0, 1, 1)
     public static let warning100 = rgba(251, 243, 226, 1)

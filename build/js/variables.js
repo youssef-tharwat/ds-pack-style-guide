@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 14 May 2021 09:11:30 GMT
+ * Generated on Fri, 14 May 2021 09:54:51 GMT
  */
 
 module.exports = {
@@ -425,11 +425,11 @@ module.exports = {
     },
     "500": {
       "category": "fill",
-      "value": "rgba(153, 110, 0, 1)",
+      "value": "rgba(8, 160, 247, 1)",
       "type": "color",
       "original": {
         "category": "fill",
-        "value": "rgba(153, 110, 0, 1)",
+        "value": "rgba(8, 160, 247, 1)",
         "type": "color"
       },
       "name": "Success500",
@@ -2141,7 +2141,7 @@ module.exports = {
         ]
       }
     },
-    "display lareg bold": {
+    "display large bold": {
       "category": "font",
       "fontSize": {
         "value": 50,
@@ -2152,15 +2152,15 @@ module.exports = {
           "type": "number",
           "unit": "pixel"
         },
-        "name": "DesktopDisplayLaregBoldFontSize",
+        "name": "DesktopDisplayLargeBoldFontSize",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "fontSize"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "fontSize"
         ]
       },
@@ -2171,15 +2171,15 @@ module.exports = {
           "value": "none",
           "type": "string"
         },
-        "name": "DesktopDisplayLaregBoldTextDecoration",
+        "name": "DesktopDisplayLargeBoldTextDecoration",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "textDecoration"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "textDecoration"
         ]
       },
@@ -2190,15 +2190,15 @@ module.exports = {
           "value": "Poppins",
           "type": "string"
         },
-        "name": "DesktopDisplayLaregBoldFontFamily",
+        "name": "DesktopDisplayLargeBoldFontFamily",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "fontFamily"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "fontFamily"
         ]
       },
@@ -2209,15 +2209,15 @@ module.exports = {
           "value": 700,
           "type": "number"
         },
-        "name": "DesktopDisplayLaregBoldFontWeight",
+        "name": "DesktopDisplayLargeBoldFontWeight",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "fontWeight"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "fontWeight"
         ]
       },
@@ -2228,15 +2228,15 @@ module.exports = {
           "value": "normal",
           "type": "string"
         },
-        "name": "DesktopDisplayLaregBoldFontStyle",
+        "name": "DesktopDisplayLargeBoldFontStyle",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "fontStyle"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "fontStyle"
         ]
       },
@@ -2247,15 +2247,15 @@ module.exports = {
           "value": "normal",
           "type": "string"
         },
-        "name": "DesktopDisplayLaregBoldFontStretch",
+        "name": "DesktopDisplayLargeBoldFontStretch",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "fontStretch"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "fontStretch"
         ]
       },
@@ -2266,15 +2266,15 @@ module.exports = {
           "value": "Bold",
           "type": "string"
         },
-        "name": "DesktopDisplayLaregBoldFontStyleOld",
+        "name": "DesktopDisplayLargeBoldFontStyleOld",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "_fontStyleOld"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "_fontStyleOld"
         ]
       },
@@ -2287,15 +2287,15 @@ module.exports = {
           "type": "number",
           "unit": "pixels"
         },
-        "name": "DesktopDisplayLaregBoldLetterSpacing",
+        "name": "DesktopDisplayLargeBoldLetterSpacing",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "letterSpacing"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "letterSpacing"
         ]
       },
@@ -2308,15 +2308,15 @@ module.exports = {
           "type": "number",
           "unit": "pixels"
         },
-        "name": "DesktopDisplayLaregBoldLineHeight",
+        "name": "DesktopDisplayLargeBoldLineHeight",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "lineHeight"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "lineHeight"
         ]
       },
@@ -2329,15 +2329,15 @@ module.exports = {
           "type": "number",
           "unit": "pixel"
         },
-        "name": "DesktopDisplayLaregBoldParagraphIndent",
+        "name": "DesktopDisplayLargeBoldParagraphIndent",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "paragraphIndent"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "paragraphIndent"
         ]
       },
@@ -2350,15 +2350,15 @@ module.exports = {
           "type": "number",
           "unit": "pixel"
         },
-        "name": "DesktopDisplayLaregBoldParagraphSpacing",
+        "name": "DesktopDisplayLargeBoldParagraphSpacing",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "paragraphSpacing"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "paragraphSpacing"
         ]
       },
@@ -2369,15 +2369,15 @@ module.exports = {
           "value": "none",
           "type": "string"
         },
-        "name": "DesktopDisplayLaregBoldTextCase",
+        "name": "DesktopDisplayLargeBoldTextCase",
         "attributes": {
           "category": "desktop",
-          "type": "display lareg bold",
+          "type": "display large bold",
           "item": "textCase"
         },
         "path": [
           "desktop",
-          "display lareg bold",
+          "display large bold",
           "textCase"
         ]
       }

@@ -51,8 +51,8 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       #     # this parameter is optional and defaults to master but I am using main
       #     BRANCH_NAME: "main"
-    - name: Commit Generated Platform Deliverables
-      id: "auto-commit-action"
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Update design tokens
+      - name: Commit Generated Platform Deliverables
+        id: "auto-commit-action"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update design tokens

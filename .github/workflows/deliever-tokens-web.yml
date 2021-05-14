@@ -2,8 +2,8 @@ name: Deliver Tokens To Web Consumer
 
 on:
   push:
-    paths:
-      - "output/**"
+    branches:
+      - main
 
 jobs:
   pull-request:

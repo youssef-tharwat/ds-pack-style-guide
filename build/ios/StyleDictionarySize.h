@@ -2,7 +2,7 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Fri, 14 May 2021 09:11:30 GMT
+// Generated on Fri, 14 May 2021 09:54:51 GMT
 //
 
 #import <Foundation/Foundation.h>
@@ -45,12 +45,12 @@ extern float const DesktopDisplayHugeBoldLetterSpacing;
 extern float const DesktopDisplayHugeBoldLineHeight;
 extern float const DesktopDisplayHugeBoldParagraphIndent;
 extern float const DesktopDisplayHugeBoldParagraphSpacing;
-extern float const DesktopDisplayLaregBoldFontSize;
-extern float const DesktopDisplayLaregBoldFontWeight;
-extern float const DesktopDisplayLaregBoldLetterSpacing;
-extern float const DesktopDisplayLaregBoldLineHeight;
-extern float const DesktopDisplayLaregBoldParagraphIndent;
-extern float const DesktopDisplayLaregBoldParagraphSpacing;
+extern float const DesktopDisplayLargeBoldFontSize;
+extern float const DesktopDisplayLargeBoldFontWeight;
+extern float const DesktopDisplayLargeBoldLetterSpacing;
+extern float const DesktopDisplayLargeBoldLineHeight;
+extern float const DesktopDisplayLargeBoldParagraphIndent;
+extern float const DesktopDisplayLargeBoldParagraphSpacing;
 extern float const DesktopDisplayMediumBoldFontSize;
 extern float const DesktopDisplayMediumBoldFontWeight;
 extern float const DesktopDisplayMediumBoldLetterSpacing;

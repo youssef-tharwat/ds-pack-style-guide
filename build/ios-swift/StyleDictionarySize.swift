@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Fri, 14 May 2021 09:11:30 GMT
+// Generated on Fri, 14 May 2021 09:54:51 GMT
 //
 
 import UIKit
@@ -70,12 +70,12 @@ public enum StyleDictionarySize {
     public static let displayHugeLineHeight = 72
     public static let displayHugeParagraphIndent = 0
     public static let displayHugeParagraphSpacing = 0
-    public static let displayLaregBoldFontSize = 50
-    public static let displayLaregBoldFontWeight = 700
-    public static let displayLaregBoldLetterSpacing = 1
-    public static let displayLaregBoldLineHeight = 64
-    public static let displayLaregBoldParagraphIndent = 0
-    public static let displayLaregBoldParagraphSpacing = 0
+    public static let displayLargeBoldFontSize = 50
+    public static let displayLargeBoldFontWeight = 700
+    public static let displayLargeBoldLetterSpacing = 1
+    public static let displayLargeBoldLineHeight = 64
+    public static let displayLargeBoldParagraphIndent = 0
+    public static let displayLargeBoldParagraphSpacing = 0
     public static let displayLargeFontSize = 50
     public static let displayLargeFontWeight = 400
     public static let displayLargeLetterSpacing = 1

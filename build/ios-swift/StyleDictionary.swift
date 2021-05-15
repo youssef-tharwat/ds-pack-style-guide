@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:04:42 GMT
+// Generated on Sat, 15 May 2021 18:08:18 GMT
 //
 
 
@@ -501,6 +501,61 @@ public class StyleDictionary {
     public static let phoneGrid2Offset = 0
     public static let phoneGrid2Pattern = rows
     public static let phoneGrid2SectionSize = 34
+    public static let sizesInVariant48 = 48
+    public static let sizesInVariant56 = 56
+    public static let sizesInVariant64 = 64
+    public static let spacing128Bottom = 10
+    public static let spacing128Left = 10
+    public static let spacing128Right = 10
+    public static let spacing128Top = 10
+    public static let spacing12Bottom = 10
+    public static let spacing12Left = 10
+    public static let spacing12Right = 10
+    public static let spacing12Top = 10
+    public static let spacing160Bottom = 10
+    public static let spacing160Left = 10
+    public static let spacing160Right = 10
+    public static let spacing160Top = 10
+    public static let spacing16Bottom = 10
+    public static let spacing16Left = 10
+    public static let spacing16Right = 10
+    public static let spacing16Top = 10
+    public static let spacing24Bottom = 10
+    public static let spacing24Left = 10
+    public static let spacing24Right = 10
+    public static let spacing24Top = 10
+    public static let spacing2Bottom = 10
+    public static let spacing2Left = 10
+    public static let spacing2Right = 10
+    public static let spacing2Top = 10
+    public static let spacing32Bottom = 10
+    public static let spacing32Left = 10
+    public static let spacing32Right = 10
+    public static let spacing32Top = 10
+    public static let spacing48Bottom = 10
+    public static let spacing48Left = 10
+    public static let spacing48Right = 10
+    public static let spacing48Top = 10
+    public static let spacing4Bottom = 10
+    public static let spacing4Left = 10
+    public static let spacing4Right = 10
+    public static let spacing4Top = 10
+    public static let spacing56Bottom = 10
+    public static let spacing56Left = 10
+    public static let spacing56Right = 10
+    public static let spacing56Top = 10
+    public static let spacing64Bottom = 10
+    public static let spacing64Left = 10
+    public static let spacing64Right = 10
+    public static let spacing64Top = 10
+    public static let spacing8Bottom = 10
+    public static let spacing8Left = 10
+    public static let spacing8Right = 10
+    public static let spacing8Top = 10
+    public static let spacing96Bottom = 10
+    public static let spacing96Left = 10
+    public static let spacing96Right = 10
+    public static let spacing96Top = 10
     public static let tabletGrid0Alignment = center
     public static let tabletGrid0Count = 8
     public static let tabletGrid0GutterSize = 24

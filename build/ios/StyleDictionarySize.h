@@ -2,13 +2,68 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:04:42 GMT
+// Generated on Sat, 15 May 2021 18:08:18 GMT
 //
 
 #import <Foundation/Foundation.h>
 
 
 
+extern float const SizesInVariant64;
+extern float const SizesInVariant56;
+extern float const SizesInVariant48;
+extern float const Spacing2Top;
+extern float const Spacing2Right;
+extern float const Spacing2Bottom;
+extern float const Spacing2Left;
+extern float const Spacing4Top;
+extern float const Spacing4Right;
+extern float const Spacing4Bottom;
+extern float const Spacing4Left;
+extern float const Spacing8Top;
+extern float const Spacing8Right;
+extern float const Spacing8Bottom;
+extern float const Spacing8Left;
+extern float const Spacing12Top;
+extern float const Spacing12Right;
+extern float const Spacing12Bottom;
+extern float const Spacing12Left;
+extern float const Spacing16Top;
+extern float const Spacing16Right;
+extern float const Spacing16Bottom;
+extern float const Spacing16Left;
+extern float const Spacing24Top;
+extern float const Spacing24Right;
+extern float const Spacing24Bottom;
+extern float const Spacing24Left;
+extern float const Spacing32Top;
+extern float const Spacing32Right;
+extern float const Spacing32Bottom;
+extern float const Spacing32Left;
+extern float const Spacing48Top;
+extern float const Spacing48Right;
+extern float const Spacing48Bottom;
+extern float const Spacing48Left;
+extern float const Spacing56Top;
+extern float const Spacing56Right;
+extern float const Spacing56Bottom;
+extern float const Spacing56Left;
+extern float const Spacing64Top;
+extern float const Spacing64Right;
+extern float const Spacing64Bottom;
+extern float const Spacing64Left;
+extern float const Spacing96Top;
+extern float const Spacing96Right;
+extern float const Spacing96Bottom;
+extern float const Spacing96Left;
+extern float const Spacing128Top;
+extern float const Spacing128Right;
+extern float const Spacing128Bottom;
+extern float const Spacing128Left;
+extern float const Spacing160Top;
+extern float const Spacing160Right;
+extern float const Spacing160Bottom;
+extern float const Spacing160Left;
 extern float const DesktopGrid0SectionSize;
 extern float const DesktopGrid0GutterSize;
 extern float const DesktopGrid0Count;

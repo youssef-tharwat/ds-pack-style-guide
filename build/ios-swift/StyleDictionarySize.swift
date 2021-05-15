@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:04:42 GMT
+// Generated on Sat, 15 May 2021 18:08:18 GMT
 //
 
 import UIKit
@@ -244,6 +244,61 @@ public enum StyleDictionarySize {
     public static let 2GutterSize = 20
     public static let 2Offset = 0
     public static let 2SectionSize = 34
+    public static let inVariant48 = 48
+    public static let inVariant56 = 56
+    public static let inVariant64 = 64
+    public static let 128Bottom = 10
+    public static let 128Left = 10
+    public static let 128Right = 10
+    public static let 128Top = 10
+    public static let 12Bottom = 10
+    public static let 12Left = 10
+    public static let 12Right = 10
+    public static let 12Top = 10
+    public static let 160Bottom = 10
+    public static let 160Left = 10
+    public static let 160Right = 10
+    public static let 160Top = 10
+    public static let 16Bottom = 10
+    public static let 16Left = 10
+    public static let 16Right = 10
+    public static let 16Top = 10
+    public static let 24Bottom = 10
+    public static let 24Left = 10
+    public static let 24Right = 10
+    public static let 24Top = 10
+    public static let 2Bottom = 10
+    public static let 2Left = 10
+    public static let 2Right = 10
+    public static let 2Top = 10
+    public static let 32Bottom = 10
+    public static let 32Left = 10
+    public static let 32Right = 10
+    public static let 32Top = 10
+    public static let 48Bottom = 10
+    public static let 48Left = 10
+    public static let 48Right = 10
+    public static let 48Top = 10
+    public static let 4Bottom = 10
+    public static let 4Left = 10
+    public static let 4Right = 10
+    public static let 4Top = 10
+    public static let 56Bottom = 10
+    public static let 56Left = 10
+    public static let 56Right = 10
+    public static let 56Top = 10
+    public static let 64Bottom = 10
+    public static let 64Left = 10
+    public static let 64Right = 10
+    public static let 64Top = 10
+    public static let 8Bottom = 10
+    public static let 8Left = 10
+    public static let 8Right = 10
+    public static let 8Top = 10
+    public static let 96Bottom = 10
+    public static let 96Left = 10
+    public static let 96Right = 10
+    public static let 96Top = 10
     public static let 0Count = 8
     public static let 0GutterSize = 24
     public static let 0SectionSize = 72

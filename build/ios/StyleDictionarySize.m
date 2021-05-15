@@ -3,13 +3,68 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:04:42 GMT
+// Generated on Sat, 15 May 2021 18:08:18 GMT
 //
 
 #import "StyleDictionarySize.h"
 
 
 
+float const SizesInVariant64 = 64;
+float const SizesInVariant56 = 56;
+float const SizesInVariant48 = 48;
+float const Spacing2Top = 10;
+float const Spacing2Right = 10;
+float const Spacing2Bottom = 10;
+float const Spacing2Left = 10;
+float const Spacing4Top = 10;
+float const Spacing4Right = 10;
+float const Spacing4Bottom = 10;
+float const Spacing4Left = 10;
+float const Spacing8Top = 10;
+float const Spacing8Right = 10;
+float const Spacing8Bottom = 10;
+float const Spacing8Left = 10;
+float const Spacing12Top = 10;
+float const Spacing12Right = 10;
+float const Spacing12Bottom = 10;
+float const Spacing12Left = 10;
+float const Spacing16Top = 10;
+float const Spacing16Right = 10;
+float const Spacing16Bottom = 10;
+float const Spacing16Left = 10;
+float const Spacing24Top = 10;
+float const Spacing24Right = 10;
+float const Spacing24Bottom = 10;
+float const Spacing24Left = 10;
+float const Spacing32Top = 10;
+float const Spacing32Right = 10;
+float const Spacing32Bottom = 10;
+float const Spacing32Left = 10;
+float const Spacing48Top = 10;
+float const Spacing48Right = 10;
+float const Spacing48Bottom = 10;
+float const Spacing48Left = 10;
+float const Spacing56Top = 10;
+float const Spacing56Right = 10;
+float const Spacing56Bottom = 10;
+float const Spacing56Left = 10;
+float const Spacing64Top = 10;
+float const Spacing64Right = 10;
+float const Spacing64Bottom = 10;
+float const Spacing64Left = 10;
+float const Spacing96Top = 10;
+float const Spacing96Right = 10;
+float const Spacing96Bottom = 10;
+float const Spacing96Left = 10;
+float const Spacing128Top = 10;
+float const Spacing128Right = 10;
+float const Spacing128Bottom = 10;
+float const Spacing128Left = 10;
+float const Spacing160Top = 10;
+float const Spacing160Right = 10;
+float const Spacing160Bottom = 10;
+float const Spacing160Left = 10;
 float const DesktopGrid0SectionSize = 72;
 float const DesktopGrid0GutterSize = 32;
 float const DesktopGrid0Count = 12;

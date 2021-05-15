@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 15 May 2021 19:47:20 GMT
+ * Generated on Sat, 15 May 2021 20:49:32 GMT
  */
 
 module.exports = {
@@ -66,6 +66,75 @@ module.exports = {
       "path": [
         "sizes",
         "in variant 48"
+      ]
+    }
+  },
+  "breakpoints": {
+    "mobile": {
+      "category": "breakpoint",
+      "value": 375,
+      "type": "number",
+      "unit": "pixel",
+      "original": {
+        "category": "breakpoint",
+        "value": 375,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "name": "BreakpointsMobile",
+      "attributes": {
+        "category": "breakpoints",
+        "type": "mobile"
+      },
+      "path": [
+        "breakpoints",
+        "mobile"
+      ]
+    },
+    "tablet": {
+      "category": "breakpoint",
+      "comment": "376",
+      "value": 834,
+      "type": "number",
+      "unit": "pixel",
+      "original": {
+        "category": "breakpoint",
+        "comment": "376",
+        "value": 834,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "name": "BreakpointsTablet",
+      "attributes": {
+        "category": "breakpoints",
+        "type": "tablet"
+      },
+      "path": [
+        "breakpoints",
+        "tablet"
+      ]
+    },
+    "desktop": {
+      "category": "breakpoint",
+      "comment": "835",
+      "value": 1440,
+      "type": "number",
+      "unit": "pixel",
+      "original": {
+        "category": "breakpoint",
+        "comment": "835",
+        "value": 1440,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "name": "BreakpointsDesktop",
+      "attributes": {
+        "category": "breakpoints",
+        "type": "desktop"
+      },
+      "path": [
+        "breakpoints",
+        "desktop"
       ]
     }
   },

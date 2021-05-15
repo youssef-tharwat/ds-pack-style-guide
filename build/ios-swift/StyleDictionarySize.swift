@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:08:18 GMT
+// Generated on Sat, 15 May 2021 19:47:20 GMT
 //
 
 import UIKit
@@ -25,7 +25,7 @@ public enum StyleDictionarySize {
     public static let bodyBodyLinkMediumFontSize = 17
     public static let bodyBodyLinkMediumFontWeight = 600
     public static let bodyBodyLinkMediumLetterSpacing = 0.75
-    public static let bodyBodyLinkMediumLineHeight = 34
+    public static let bodyBodyLinkMediumLineHeight = 32
     public static let bodyBodyLinkMediumParagraphIndent = 0
     public static let bodyBodyLinkMediumParagraphSpacing = 0
     public static let bodyBodyLinkSmallFontSize = 15

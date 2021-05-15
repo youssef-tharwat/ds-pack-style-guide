@@ -3,7 +3,7 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:08:18 GMT
+// Generated on Sat, 15 May 2021 19:47:20 GMT
 //
 
 #import "StyleDictionarySize.h"
@@ -153,7 +153,7 @@ float const DesktopDisplayDisplaySmallBoldParagraphSpacing = 0;
 float const DesktopBodyBodyLinkMediumFontSize = 17;
 float const DesktopBodyBodyLinkMediumFontWeight = 600;
 float const DesktopBodyBodyLinkMediumLetterSpacing = 0.75;
-float const DesktopBodyBodyLinkMediumLineHeight = 34;
+float const DesktopBodyBodyLinkMediumLineHeight = 32;
 float const DesktopBodyBodyLinkMediumParagraphIndent = 0;
 float const DesktopBodyBodyLinkMediumParagraphSpacing = 0;
 float const DesktopBodyBodyLinkXSmallFontSize = 13;

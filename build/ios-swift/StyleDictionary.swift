@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 18:08:18 GMT
+// Generated on Sat, 15 May 2021 19:47:20 GMT
 //
 
 
@@ -75,7 +75,7 @@ public class StyleDictionary {
     public static let desktopBodyBodyLinkMediumFontStyleOld = SemiBold
     public static let desktopBodyBodyLinkMediumFontWeight = 600
     public static let desktopBodyBodyLinkMediumLetterSpacing = 0.75
-    public static let desktopBodyBodyLinkMediumLineHeight = 34
+    public static let desktopBodyBodyLinkMediumLineHeight = 32
     public static let desktopBodyBodyLinkMediumParagraphIndent = 0
     public static let desktopBodyBodyLinkMediumParagraphSpacing = 0
     public static let desktopBodyBodyLinkMediumTextCase = none

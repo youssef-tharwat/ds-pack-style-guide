@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 15 May 2021 18:08:18 GMT
+ * Generated on Sat, 15 May 2021 19:47:20 GMT
  */
 
 module.exports = {
@@ -5580,11 +5580,11 @@ module.exports = {
           ]
         },
         "lineHeight": {
-          "value": 34,
+          "value": 32,
           "type": "number",
           "unit": "pixels",
           "original": {
-            "value": 34,
+            "value": 32,
             "type": "number",
             "unit": "pixels"
           },

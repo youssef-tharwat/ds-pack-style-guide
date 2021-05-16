@@ -2,7 +2,7 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 20:49:32 GMT
+// Generated on Sun, 16 May 2021 17:51:33 GMT
 //
 
 #import <Foundation/Foundation.h>
@@ -12,9 +12,6 @@
 extern float const SizesInVariant64;
 extern float const SizesInVariant56;
 extern float const SizesInVariant48;
-extern float const BreakpointsMobile;
-extern float const BreakpointsTablet;
-extern float const BreakpointsDesktop;
 extern float const Spacing2Top;
 extern float const Spacing2Right;
 extern float const Spacing2Bottom;

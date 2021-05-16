@@ -3,16 +3,13 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 20:49:32 GMT
+// Generated on Sun, 16 May 2021 17:51:33 GMT
 //
 
 
 import UIKit
 
 public class StyleDictionary {
-    public static let breakpointsDesktop = 1440
-    public static let breakpointsMobile = 375
-    public static let breakpointsTablet = 834
     public static let colorsError100 = rgba(251, 239, 239, 1)
     public static let colorsError200 = rgba(243, 204, 204, 1)
     public static let colorsError300 = rgba(243, 172, 172, 1)

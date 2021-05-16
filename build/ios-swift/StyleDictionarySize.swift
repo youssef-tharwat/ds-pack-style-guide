@@ -3,15 +3,12 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Sat, 15 May 2021 20:49:32 GMT
+// Generated on Sun, 16 May 2021 17:51:33 GMT
 //
 
 import UIKit
 
 public enum StyleDictionarySize {
-    public static let desktop = 1440
-    public static let mobile = 375
-    public static let tablet = 834
     public static let 0Count = 12
     public static let 0GutterSize = 32
     public static let 0SectionSize = 72

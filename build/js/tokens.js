@@ -1,9 +1,78 @@
 /**
  * Do not edit directly
- * Generated on Mon, 17 May 2021 20:34:02 GMT
+ * Generated on Mon, 17 May 2021 20:59:03 GMT
  */
 
 module.exports = {
+  "breakpoints": {
+    "mobile": {
+      "category": "breakpoint",
+      "value": 375,
+      "type": "number",
+      "unit": "pixel",
+      "original": {
+        "category": "breakpoint",
+        "value": 375,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "name": "BreakpointsMobile",
+      "attributes": {
+        "category": "breakpoints",
+        "type": "mobile"
+      },
+      "path": [
+        "breakpoints",
+        "mobile"
+      ]
+    },
+    "tablet": {
+      "category": "breakpoint",
+      "comment": "376",
+      "value": 834,
+      "type": "number",
+      "unit": "pixel",
+      "original": {
+        "category": "breakpoint",
+        "comment": "376",
+        "value": 834,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "name": "BreakpointsTablet",
+      "attributes": {
+        "category": "breakpoints",
+        "type": "tablet"
+      },
+      "path": [
+        "breakpoints",
+        "tablet"
+      ]
+    },
+    "desktop": {
+      "category": "breakpoint",
+      "comment": "835",
+      "value": 1440,
+      "type": "number",
+      "unit": "pixel",
+      "original": {
+        "category": "breakpoint",
+        "comment": "835",
+        "value": 1440,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "name": "BreakpointsDesktop",
+      "attributes": {
+        "category": "breakpoints",
+        "type": "desktop"
+      },
+      "path": [
+        "breakpoints",
+        "desktop"
+      ]
+    }
+  },
   "spacing": {
     "2": {
       "category": "spacing",
@@ -2828,30 +2897,30 @@ module.exports = {
     },
     "category": "grid"
   },
-  "desktop": {
-    "display": {
-      "display x-small bold": {
+  "typography": {
+    "desktop": {
+      "body text x-small": {
         "category": "font",
         "fontSize": {
-          "value": 24,
+          "value": 13,
           "type": "number",
           "unit": "pixel",
           "original": {
-            "value": 24,
+            "value": 13,
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldFontSize",
+          "name": "TypographyDesktopBodyTextXSmallFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "fontSize"
           ]
         },
@@ -2862,17 +2931,17 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldTextDecoration",
+          "name": "TypographyDesktopBodyTextXSmallTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "textDecoration"
           ]
         },
@@ -2883,38 +2952,38 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldFontFamily",
+          "name": "TypographyDesktopBodyTextXSmallFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "fontFamily"
           ]
         },
         "fontWeight": {
-          "value": 700,
+          "value": 500,
           "type": "number",
           "original": {
-            "value": 700,
+            "value": 500,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldFontWeight",
+          "name": "TypographyDesktopBodyTextXSmallFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "fontWeight"
           ]
         },
@@ -2925,17 +2994,17 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldFontStyle",
+          "name": "TypographyDesktopBodyTextXSmallFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "fontStyle"
           ]
         },
@@ -2946,84 +3015,84 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldFontStretch",
+          "name": "TypographyDesktopBodyTextXSmallFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "fontStretch"
           ]
         },
         "_fontStyleOld": {
-          "value": "Bold",
+          "value": "Medium",
           "type": "string",
           "original": {
-            "value": "Bold",
+            "value": "Medium",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldFontStyleOld",
+          "name": "TypographyDesktopBodyTextXSmallFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "_fontStyleOld"
           ]
         },
         "letterSpacing": {
-          "value": 1,
+          "value": 0.25,
           "type": "number",
           "unit": "pixels",
           "original": {
-            "value": 1,
+            "value": 0.25,
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldLetterSpacing",
+          "name": "TypographyDesktopBodyTextXSmallLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "letterSpacing"
           ]
         },
         "lineHeight": {
-          "value": 32,
+          "value": 22,
           "type": "number",
           "unit": "pixels",
           "original": {
-            "value": 32,
+            "value": 22,
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldLineHeight",
+          "name": "TypographyDesktopBodyTextXSmallLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "lineHeight"
           ]
         },
@@ -3036,17 +3105,17 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldParagraphIndent",
+          "name": "TypographyDesktopBodyTextXSmallParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "paragraphIndent"
           ]
         },
@@ -3059,17 +3128,17 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldParagraphSpacing",
+          "name": "TypographyDesktopBodyTextXSmallParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
             "paragraphSpacing"
           ]
         },
@@ -3080,17 +3149,1872 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallBoldTextCase",
+          "name": "TypographyDesktopBodyTextXSmallTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
-            "item": "display x-small bold",
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text x-small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
-            "display x-small bold",
+            "body text x-small",
+            "textCase"
+          ]
+        }
+      },
+      "body link large": {
+        "category": "font",
+        "fontSize": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 20,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkLargeFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkLargeTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkLargeFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "number",
+          "original": {
+            "value": 600,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyLinkLargeFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkLargeFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkLargeFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "SemiBold",
+          "type": "string",
+          "original": {
+            "value": "SemiBold",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkLargeFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.75,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.75,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkLargeLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 38,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 38,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkLargeLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkLargeParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkLargeParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkLargeTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link large",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link large",
+            "textCase"
+          ]
+        }
+      },
+      "body text small": {
+        "category": "font",
+        "fontSize": {
+          "value": 15,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 15,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextSmallFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextSmallTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextSmallFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number",
+          "original": {
+            "value": 400,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyTextSmallFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextSmallFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextSmallFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "Regular",
+          "type": "string",
+          "original": {
+            "value": "Regular",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextSmallFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.75,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.75,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyTextSmallLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 24,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyTextSmallLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextSmallParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextSmallParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextSmallTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text small",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text small",
+            "textCase"
+          ]
+        }
+      },
+      "body link medium": {
+        "category": "font",
+        "fontSize": {
+          "value": 17,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 17,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkMediumFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkMediumTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkMediumFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "number",
+          "original": {
+            "value": 600,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyLinkMediumFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkMediumFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkMediumFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "SemiBold",
+          "type": "string",
+          "original": {
+            "value": "SemiBold",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkMediumFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.75,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.75,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkMediumLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 32,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkMediumLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkMediumParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkMediumParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkMediumTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link medium",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link medium",
+            "textCase"
+          ]
+        }
+      },
+      "body link x-small": {
+        "category": "font",
+        "fontSize": {
+          "value": 13,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 13,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "number",
+          "original": {
+            "value": 600,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "SemiBold",
+          "type": "string",
+          "original": {
+            "value": "SemiBold",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.25,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.25,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 22,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 22,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkXSmallTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link x-small",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link x-small",
+            "textCase"
+          ]
+        }
+      },
+      "body link small": {
+        "category": "font",
+        "fontSize": {
+          "value": 15,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 15,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkSmallFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkSmallTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkSmallFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number",
+          "original": {
+            "value": 400,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyLinkSmallFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkSmallFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkSmallFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "Regular",
+          "type": "string",
+          "original": {
+            "value": "Regular",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkSmallFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.75,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.75,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkSmallLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 24,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyLinkSmallLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkSmallParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyLinkSmallParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyLinkSmallTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body link small",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body link small",
+            "textCase"
+          ]
+        }
+      },
+      "body text medium": {
+        "category": "font",
+        "fontSize": {
+          "value": 17,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 17,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextMediumFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextMediumTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextMediumFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number",
+          "original": {
+            "value": 400,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyTextMediumFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextMediumFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextMediumFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "Regular",
+          "type": "string",
+          "original": {
+            "value": "Regular",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextMediumFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.75,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.75,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyTextMediumLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 34,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 34,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyTextMediumLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextMediumParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextMediumParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextMediumTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text medium",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text medium",
+            "textCase"
+          ]
+        }
+      },
+      "body text large": {
+        "category": "font",
+        "fontSize": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 20,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextLargeFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextLargeTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextLargeFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "number",
+          "original": {
+            "value": 700,
+            "type": "number"
+          },
+          "name": "TypographyDesktopBodyTextLargeFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextLargeFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextLargeFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "Bold",
+          "type": "string",
+          "original": {
+            "value": "Bold",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextLargeFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.75,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.75,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyTextLargeLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 38,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 38,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopBodyTextLargeLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextLargeParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopBodyTextLargeParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopBodyTextLargeTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "body text large",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "body text large",
             "textCase"
           ]
         }
@@ -3106,16 +5030,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayHugeFontSize",
+          "name": "TypographyDesktopDisplayHugeFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "fontSize"
           ]
@@ -3127,16 +5051,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeTextDecoration",
+          "name": "TypographyDesktopDisplayHugeTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "textDecoration"
           ]
@@ -3148,16 +5072,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeFontFamily",
+          "name": "TypographyDesktopDisplayHugeFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "fontFamily"
           ]
@@ -3169,16 +5093,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayHugeFontWeight",
+          "name": "TypographyDesktopDisplayHugeFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "fontWeight"
           ]
@@ -3190,16 +5114,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeFontStyle",
+          "name": "TypographyDesktopDisplayHugeFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "fontStyle"
           ]
@@ -3211,16 +5135,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeFontStretch",
+          "name": "TypographyDesktopDisplayHugeFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "fontStretch"
           ]
@@ -3232,16 +5156,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeFontStyleOld",
+          "name": "TypographyDesktopDisplayHugeFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "_fontStyleOld"
           ]
@@ -3255,16 +5179,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayHugeLetterSpacing",
+          "name": "TypographyDesktopDisplayHugeLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "letterSpacing"
           ]
@@ -3278,16 +5202,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayHugeLineHeight",
+          "name": "TypographyDesktopDisplayHugeLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "lineHeight"
           ]
@@ -3301,16 +5225,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayHugeParagraphIndent",
+          "name": "TypographyDesktopDisplayHugeParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "paragraphIndent"
           ]
@@ -3324,16 +5248,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayHugeParagraphSpacing",
+          "name": "TypographyDesktopDisplayHugeParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "paragraphSpacing"
           ]
@@ -3345,16 +5269,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeTextCase",
+          "name": "TypographyDesktopDisplayHugeTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge",
             "textCase"
           ]
@@ -3371,16 +5295,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayLargeFontSize",
+          "name": "TypographyDesktopDisplayLargeFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "fontSize"
           ]
@@ -3392,16 +5316,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeTextDecoration",
+          "name": "TypographyDesktopDisplayLargeTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "textDecoration"
           ]
@@ -3413,16 +5337,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeFontFamily",
+          "name": "TypographyDesktopDisplayLargeFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "fontFamily"
           ]
@@ -3434,16 +5358,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayLargeFontWeight",
+          "name": "TypographyDesktopDisplayLargeFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "fontWeight"
           ]
@@ -3455,16 +5379,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeFontStyle",
+          "name": "TypographyDesktopDisplayLargeFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "fontStyle"
           ]
@@ -3476,16 +5400,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeFontStretch",
+          "name": "TypographyDesktopDisplayLargeFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "fontStretch"
           ]
@@ -3497,16 +5421,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeFontStyleOld",
+          "name": "TypographyDesktopDisplayLargeFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "_fontStyleOld"
           ]
@@ -3520,16 +5444,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayLargeLetterSpacing",
+          "name": "TypographyDesktopDisplayLargeLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "letterSpacing"
           ]
@@ -3543,16 +5467,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayLargeLineHeight",
+          "name": "TypographyDesktopDisplayLargeLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "lineHeight"
           ]
@@ -3566,16 +5490,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayLargeParagraphIndent",
+          "name": "TypographyDesktopDisplayLargeParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "paragraphIndent"
           ]
@@ -3589,16 +5513,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayLargeParagraphSpacing",
+          "name": "TypographyDesktopDisplayLargeParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "paragraphSpacing"
           ]
@@ -3610,16 +5534,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeTextCase",
+          "name": "TypographyDesktopDisplayLargeTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large",
             "textCase"
           ]
@@ -3636,16 +5560,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayMediumFontSize",
+          "name": "TypographyDesktopDisplayMediumFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "fontSize"
           ]
@@ -3657,16 +5581,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumTextDecoration",
+          "name": "TypographyDesktopDisplayMediumTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "textDecoration"
           ]
@@ -3678,16 +5602,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumFontFamily",
+          "name": "TypographyDesktopDisplayMediumFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "fontFamily"
           ]
@@ -3699,16 +5623,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayMediumFontWeight",
+          "name": "TypographyDesktopDisplayMediumFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "fontWeight"
           ]
@@ -3720,16 +5644,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumFontStyle",
+          "name": "TypographyDesktopDisplayMediumFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "fontStyle"
           ]
@@ -3741,16 +5665,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumFontStretch",
+          "name": "TypographyDesktopDisplayMediumFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "fontStretch"
           ]
@@ -3762,16 +5686,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumFontStyleOld",
+          "name": "TypographyDesktopDisplayMediumFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "_fontStyleOld"
           ]
@@ -3785,16 +5709,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayMediumLetterSpacing",
+          "name": "TypographyDesktopDisplayMediumLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "letterSpacing"
           ]
@@ -3808,16 +5732,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayMediumLineHeight",
+          "name": "TypographyDesktopDisplayMediumLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "lineHeight"
           ]
@@ -3831,16 +5755,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayMediumParagraphIndent",
+          "name": "TypographyDesktopDisplayMediumParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "paragraphIndent"
           ]
@@ -3854,16 +5778,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayMediumParagraphSpacing",
+          "name": "TypographyDesktopDisplayMediumParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "paragraphSpacing"
           ]
@@ -3875,16 +5799,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumTextCase",
+          "name": "TypographyDesktopDisplayMediumTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium",
             "textCase"
           ]
@@ -3901,16 +5825,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplaySmallFontSize",
+          "name": "TypographyDesktopDisplaySmallFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "fontSize"
           ]
@@ -3922,16 +5846,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallTextDecoration",
+          "name": "TypographyDesktopDisplaySmallTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "textDecoration"
           ]
@@ -3943,16 +5867,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallFontFamily",
+          "name": "TypographyDesktopDisplaySmallFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "fontFamily"
           ]
@@ -3964,16 +5888,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplaySmallFontWeight",
+          "name": "TypographyDesktopDisplaySmallFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "fontWeight"
           ]
@@ -3985,16 +5909,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallFontStyle",
+          "name": "TypographyDesktopDisplaySmallFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "fontStyle"
           ]
@@ -4006,16 +5930,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallFontStretch",
+          "name": "TypographyDesktopDisplaySmallFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "fontStretch"
           ]
@@ -4027,16 +5951,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallFontStyleOld",
+          "name": "TypographyDesktopDisplaySmallFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "_fontStyleOld"
           ]
@@ -4050,16 +5974,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplaySmallLetterSpacing",
+          "name": "TypographyDesktopDisplaySmallLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "letterSpacing"
           ]
@@ -4073,16 +5997,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplaySmallLineHeight",
+          "name": "TypographyDesktopDisplaySmallLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "lineHeight"
           ]
@@ -4096,16 +6020,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplaySmallParagraphIndent",
+          "name": "TypographyDesktopDisplaySmallParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "paragraphIndent"
           ]
@@ -4119,16 +6043,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplaySmallParagraphSpacing",
+          "name": "TypographyDesktopDisplaySmallParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "paragraphSpacing"
           ]
@@ -4140,16 +6064,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallTextCase",
+          "name": "TypographyDesktopDisplaySmallTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small",
             "textCase"
           ]
@@ -4166,16 +6090,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayXSmallFontSize",
+          "name": "TypographyDesktopDisplayXSmallFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "fontSize"
           ]
@@ -4187,16 +6111,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallTextDecoration",
+          "name": "TypographyDesktopDisplayXSmallTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "textDecoration"
           ]
@@ -4208,16 +6132,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallFontFamily",
+          "name": "TypographyDesktopDisplayXSmallFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "fontFamily"
           ]
@@ -4229,16 +6153,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayXSmallFontWeight",
+          "name": "TypographyDesktopDisplayXSmallFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "fontWeight"
           ]
@@ -4250,16 +6174,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallFontStyle",
+          "name": "TypographyDesktopDisplayXSmallFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "fontStyle"
           ]
@@ -4271,16 +6195,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallFontStretch",
+          "name": "TypographyDesktopDisplayXSmallFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "fontStretch"
           ]
@@ -4292,16 +6216,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallFontStyleOld",
+          "name": "TypographyDesktopDisplayXSmallFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "_fontStyleOld"
           ]
@@ -4315,16 +6239,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayXSmallLetterSpacing",
+          "name": "TypographyDesktopDisplayXSmallLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "letterSpacing"
           ]
@@ -4338,16 +6262,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayXSmallLineHeight",
+          "name": "TypographyDesktopDisplayXSmallLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "lineHeight"
           ]
@@ -4361,16 +6285,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayXSmallParagraphIndent",
+          "name": "TypographyDesktopDisplayXSmallParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "paragraphIndent"
           ]
@@ -4384,16 +6308,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayXSmallParagraphSpacing",
+          "name": "TypographyDesktopDisplayXSmallParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "paragraphSpacing"
           ]
@@ -4405,16 +6329,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayXSmallTextCase",
+          "name": "TypographyDesktopDisplayXSmallTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display x-small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display x-small",
             "textCase"
           ]
@@ -4431,16 +6355,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayHugeBoldFontSize",
+          "name": "TypographyDesktopDisplayHugeBoldFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "fontSize"
           ]
@@ -4452,16 +6376,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeBoldTextDecoration",
+          "name": "TypographyDesktopDisplayHugeBoldTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "textDecoration"
           ]
@@ -4473,16 +6397,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeBoldFontFamily",
+          "name": "TypographyDesktopDisplayHugeBoldFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "fontFamily"
           ]
@@ -4494,16 +6418,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayHugeBoldFontWeight",
+          "name": "TypographyDesktopDisplayHugeBoldFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "fontWeight"
           ]
@@ -4515,16 +6439,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeBoldFontStyle",
+          "name": "TypographyDesktopDisplayHugeBoldFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "fontStyle"
           ]
@@ -4536,16 +6460,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeBoldFontStretch",
+          "name": "TypographyDesktopDisplayHugeBoldFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "fontStretch"
           ]
@@ -4557,16 +6481,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeBoldFontStyleOld",
+          "name": "TypographyDesktopDisplayHugeBoldFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "_fontStyleOld"
           ]
@@ -4580,16 +6504,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayHugeBoldLetterSpacing",
+          "name": "TypographyDesktopDisplayHugeBoldLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "letterSpacing"
           ]
@@ -4603,16 +6527,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayHugeBoldLineHeight",
+          "name": "TypographyDesktopDisplayHugeBoldLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "lineHeight"
           ]
@@ -4626,16 +6550,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayHugeBoldParagraphIndent",
+          "name": "TypographyDesktopDisplayHugeBoldParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "paragraphIndent"
           ]
@@ -4649,16 +6573,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayHugeBoldParagraphSpacing",
+          "name": "TypographyDesktopDisplayHugeBoldParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "paragraphSpacing"
           ]
@@ -4670,16 +6594,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayHugeBoldTextCase",
+          "name": "TypographyDesktopDisplayHugeBoldTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display huge bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display huge bold",
             "textCase"
           ]
@@ -4696,16 +6620,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayLargeBoldFontSize",
+          "name": "TypographyDesktopDisplayLargeBoldFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "fontSize"
           ]
@@ -4717,16 +6641,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeBoldTextDecoration",
+          "name": "TypographyDesktopDisplayLargeBoldTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "textDecoration"
           ]
@@ -4738,16 +6662,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeBoldFontFamily",
+          "name": "TypographyDesktopDisplayLargeBoldFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "fontFamily"
           ]
@@ -4759,16 +6683,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayLargeBoldFontWeight",
+          "name": "TypographyDesktopDisplayLargeBoldFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "fontWeight"
           ]
@@ -4780,16 +6704,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeBoldFontStyle",
+          "name": "TypographyDesktopDisplayLargeBoldFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "fontStyle"
           ]
@@ -4801,16 +6725,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeBoldFontStretch",
+          "name": "TypographyDesktopDisplayLargeBoldFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "fontStretch"
           ]
@@ -4822,16 +6746,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeBoldFontStyleOld",
+          "name": "TypographyDesktopDisplayLargeBoldFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "_fontStyleOld"
           ]
@@ -4845,16 +6769,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayLargeBoldLetterSpacing",
+          "name": "TypographyDesktopDisplayLargeBoldLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "letterSpacing"
           ]
@@ -4868,16 +6792,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayLargeBoldLineHeight",
+          "name": "TypographyDesktopDisplayLargeBoldLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "lineHeight"
           ]
@@ -4891,16 +6815,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayLargeBoldParagraphIndent",
+          "name": "TypographyDesktopDisplayLargeBoldParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "paragraphIndent"
           ]
@@ -4914,16 +6838,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayLargeBoldParagraphSpacing",
+          "name": "TypographyDesktopDisplayLargeBoldParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "paragraphSpacing"
           ]
@@ -4935,16 +6859,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayLargeBoldTextCase",
+          "name": "TypographyDesktopDisplayLargeBoldTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display large bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display large bold",
             "textCase"
           ]
@@ -4961,16 +6885,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayMediumBoldFontSize",
+          "name": "TypographyDesktopDisplayMediumBoldFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "fontSize"
           ]
@@ -4982,16 +6906,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumBoldTextDecoration",
+          "name": "TypographyDesktopDisplayMediumBoldTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "textDecoration"
           ]
@@ -5003,16 +6927,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumBoldFontFamily",
+          "name": "TypographyDesktopDisplayMediumBoldFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "fontFamily"
           ]
@@ -5024,16 +6948,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplayMediumBoldFontWeight",
+          "name": "TypographyDesktopDisplayMediumBoldFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "fontWeight"
           ]
@@ -5045,16 +6969,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumBoldFontStyle",
+          "name": "TypographyDesktopDisplayMediumBoldFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "fontStyle"
           ]
@@ -5066,16 +6990,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumBoldFontStretch",
+          "name": "TypographyDesktopDisplayMediumBoldFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "fontStretch"
           ]
@@ -5087,16 +7011,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumBoldFontStyleOld",
+          "name": "TypographyDesktopDisplayMediumBoldFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "_fontStyleOld"
           ]
@@ -5110,16 +7034,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayMediumBoldLetterSpacing",
+          "name": "TypographyDesktopDisplayMediumBoldLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "letterSpacing"
           ]
@@ -5133,16 +7057,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplayMediumBoldLineHeight",
+          "name": "TypographyDesktopDisplayMediumBoldLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "lineHeight"
           ]
@@ -5156,16 +7080,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayMediumBoldParagraphIndent",
+          "name": "TypographyDesktopDisplayMediumBoldParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "paragraphIndent"
           ]
@@ -5179,16 +7103,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplayMediumBoldParagraphSpacing",
+          "name": "TypographyDesktopDisplayMediumBoldParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
             "paragraphSpacing"
           ]
@@ -5200,17 +7124,282 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplayMediumBoldTextCase",
+          "name": "TypographyDesktopDisplayMediumBoldTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display medium bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display medium bold",
+            "textCase"
+          ]
+        }
+      },
+      "display x-small bold": {
+        "category": "font",
+        "fontSize": {
+          "value": 24,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 24,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "number",
+          "original": {
+            "value": 700,
+            "type": "number"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "Bold",
+          "type": "string",
+          "original": {
+            "value": "Bold",
+            "type": "string"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 1,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 32,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyDesktopDisplayXSmallBoldTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "desktop",
+            "item": "display x-small bold",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "desktop",
+            "display x-small bold",
             "textCase"
           ]
         }
@@ -5226,16 +7415,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplaySmallBoldFontSize",
+          "name": "TypographyDesktopDisplaySmallBoldFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "fontSize"
           ]
@@ -5247,16 +7436,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallBoldTextDecoration",
+          "name": "TypographyDesktopDisplaySmallBoldTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "textDecoration"
           ]
@@ -5268,16 +7457,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallBoldFontFamily",
+          "name": "TypographyDesktopDisplaySmallBoldFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "fontFamily"
           ]
@@ -5289,16 +7478,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "DesktopDisplayDisplaySmallBoldFontWeight",
+          "name": "TypographyDesktopDisplaySmallBoldFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "fontWeight"
           ]
@@ -5310,16 +7499,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallBoldFontStyle",
+          "name": "TypographyDesktopDisplaySmallBoldFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "fontStyle"
           ]
@@ -5331,16 +7520,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallBoldFontStretch",
+          "name": "TypographyDesktopDisplaySmallBoldFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "fontStretch"
           ]
@@ -5352,16 +7541,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallBoldFontStyleOld",
+          "name": "TypographyDesktopDisplaySmallBoldFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "_fontStyleOld"
           ]
@@ -5375,16 +7564,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplaySmallBoldLetterSpacing",
+          "name": "TypographyDesktopDisplaySmallBoldLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "letterSpacing"
           ]
@@ -5398,16 +7587,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopDisplayDisplaySmallBoldLineHeight",
+          "name": "TypographyDesktopDisplaySmallBoldLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "lineHeight"
           ]
@@ -5421,16 +7610,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplaySmallBoldParagraphIndent",
+          "name": "TypographyDesktopDisplaySmallBoldParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "paragraphIndent"
           ]
@@ -5444,16 +7633,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopDisplayDisplaySmallBoldParagraphSpacing",
+          "name": "TypographyDesktopDisplaySmallBoldParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "paragraphSpacing"
           ]
@@ -5465,45 +7654,45 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopDisplayDisplaySmallBoldTextCase",
+          "name": "TypographyDesktopDisplaySmallBoldTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "display",
+            "category": "typography",
+            "type": "desktop",
             "item": "display small bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "desktop",
-            "display",
             "display small bold",
             "textCase"
           ]
         }
       }
     },
-    "body": {
-      "body link medium": {
+    "mobile": {
+      "body text large": {
         "category": "font",
         "fontSize": {
-          "value": 17,
+          "value": 20,
           "type": "number",
           "unit": "pixel",
           "original": {
-            "value": 17,
+            "value": 20,
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopBodyBodyLinkMediumFontSize",
+          "name": "TypographyMobileBodyTextLargeFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "fontSize"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "fontSize"
           ]
         },
@@ -5514,17 +7703,17 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopBodyBodyLinkMediumTextDecoration",
+          "name": "TypographyMobileBodyTextLargeTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "textDecoration"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "textDecoration"
           ]
         },
@@ -5535,38 +7724,38 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopBodyBodyLinkMediumFontFamily",
+          "name": "TypographyMobileBodyTextLargeFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "fontFamily"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "fontFamily"
           ]
         },
         "fontWeight": {
-          "value": 600,
+          "value": 400,
           "type": "number",
           "original": {
-            "value": 600,
+            "value": 400,
             "type": "number"
           },
-          "name": "DesktopBodyBodyLinkMediumFontWeight",
+          "name": "TypographyMobileBodyTextLargeFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "fontWeight"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "fontWeight"
           ]
         },
@@ -5577,17 +7766,17 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopBodyBodyLinkMediumFontStyle",
+          "name": "TypographyMobileBodyTextLargeFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "fontStyle"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "fontStyle"
           ]
         },
@@ -5598,38 +7787,38 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopBodyBodyLinkMediumFontStretch",
+          "name": "TypographyMobileBodyTextLargeFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "fontStretch"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "fontStretch"
           ]
         },
         "_fontStyleOld": {
-          "value": "SemiBold",
+          "value": "Regular",
           "type": "string",
           "original": {
-            "value": "SemiBold",
+            "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopBodyBodyLinkMediumFontStyleOld",
+          "name": "TypographyMobileBodyTextLargeFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "_fontStyleOld"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "_fontStyleOld"
           ]
         },
@@ -5642,17 +7831,17 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopBodyBodyLinkMediumLetterSpacing",
+          "name": "TypographyMobileBodyTextLargeLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
+            "category": "typography",
+            "type": "mobile",
+            "item": "body text large",
             "subitem": "letterSpacing"
           },
           "path": [
-            "desktop",
-            "body",
-            "body link medium",
+            "typography",
+            "mobile",
+            "body text large",
             "letterSpacing"
           ]
         },
@@ -5665,811 +7854,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopBodyBodyLinkMediumLineHeight",
+          "name": "TypographyMobileBodyTextLargeLineHeight",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link medium",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkMediumParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link medium",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkMediumParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link medium",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkMediumTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link medium",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link medium",
-            "textCase"
-          ]
-        }
-      },
-      "body link x-small": {
-        "category": "font",
-        "fontSize": {
-          "value": 13,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 13,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkXSmallFontSize",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkXSmallTextDecoration",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkXSmallFontFamily",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 600,
-          "type": "number",
-          "original": {
-            "value": 600,
-            "type": "number"
-          },
-          "name": "DesktopBodyBodyLinkXSmallFontWeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkXSmallFontStyle",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkXSmallFontStretch",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "SemiBold",
-          "type": "string",
-          "original": {
-            "value": "SemiBold",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkXSmallFontStyleOld",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.25,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.25,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyLinkXSmallLetterSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 22,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 22,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyLinkXSmallLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkXSmallParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkXSmallParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkXSmallTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link x-small",
-            "textCase"
-          ]
-        }
-      },
-      "body link small": {
-        "category": "font",
-        "fontSize": {
-          "value": 15,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 15,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkSmallFontSize",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkSmallTextDecoration",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkSmallFontFamily",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "number",
-          "original": {
-            "value": 400,
-            "type": "number"
-          },
-          "name": "DesktopBodyBodyLinkSmallFontWeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkSmallFontStyle",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkSmallFontStretch",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Regular",
-          "type": "string",
-          "original": {
-            "value": "Regular",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkSmallFontStyleOld",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.75,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.75,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyLinkSmallLetterSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 24,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 24,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyLinkSmallLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkSmallParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkSmallParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkSmallTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link small",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link small",
-            "textCase"
-          ]
-        }
-      },
-      "body text large": {
-        "category": "font",
-        "fontSize": {
-          "value": 20,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 20,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextLargeFontSize",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextLargeTextDecoration",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextLargeFontFamily",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 700,
-          "type": "number",
-          "original": {
-            "value": 700,
-            "type": "number"
-          },
-          "name": "DesktopBodyBodyTextLargeFontWeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextLargeFontStyle",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextLargeFontStretch",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Bold",
-          "type": "string",
-          "original": {
-            "value": "Bold",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextLargeFontStyleOld",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.75,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.75,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextLargeLetterSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text large",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 38,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 38,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextLargeLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text large",
             "subitem": "lineHeight"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text large",
             "lineHeight"
           ]
@@ -6483,16 +7877,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopBodyBodyTextLargeParagraphIndent",
+          "name": "TypographyMobileBodyTextLargeParagraphIndent",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text large",
             "subitem": "paragraphIndent"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text large",
             "paragraphIndent"
           ]
@@ -6506,16 +7900,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopBodyBodyTextLargeParagraphSpacing",
+          "name": "TypographyMobileBodyTextLargeParagraphSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text large",
             "subitem": "paragraphSpacing"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text large",
             "paragraphSpacing"
           ]
@@ -6527,16 +7921,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopBodyBodyTextLargeTextCase",
+          "name": "TypographyMobileBodyTextLargeTextCase",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text large",
             "subitem": "textCase"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text large",
             "textCase"
           ]
@@ -6553,16 +7947,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "DesktopBodyBodyTextMediumFontSize",
+          "name": "TypographyMobileBodyTextMediumFontSize",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "fontSize"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "fontSize"
           ]
@@ -6574,16 +7968,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "DesktopBodyBodyTextMediumTextDecoration",
+          "name": "TypographyMobileBodyTextMediumTextDecoration",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "textDecoration"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "textDecoration"
           ]
@@ -6595,16 +7989,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "DesktopBodyBodyTextMediumFontFamily",
+          "name": "TypographyMobileBodyTextMediumFontFamily",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "fontFamily"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "fontFamily"
           ]
@@ -6616,16 +8010,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "DesktopBodyBodyTextMediumFontWeight",
+          "name": "TypographyMobileBodyTextMediumFontWeight",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "fontWeight"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "fontWeight"
           ]
@@ -6637,16 +8031,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopBodyBodyTextMediumFontStyle",
+          "name": "TypographyMobileBodyTextMediumFontStyle",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "fontStyle"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "fontStyle"
           ]
@@ -6658,16 +8052,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "DesktopBodyBodyTextMediumFontStretch",
+          "name": "TypographyMobileBodyTextMediumFontStretch",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "fontStretch"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "fontStretch"
           ]
@@ -6679,16 +8073,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "DesktopBodyBodyTextMediumFontStyleOld",
+          "name": "TypographyMobileBodyTextMediumFontStyleOld",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "_fontStyleOld"
           },
           "path": [
-            "desktop",
-            "body",
+            "typography",
+            "mobile",
             "body text medium",
             "_fontStyleOld"
           ]
@@ -6702,1610 +8096,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "DesktopBodyBodyTextMediumLetterSpacing",
+          "name": "TypographyMobileBodyTextMediumLetterSpacing",
           "attributes": {
-            "category": "desktop",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "letterSpacing"
           },
           "path": [
-            "desktop",
-            "body",
-            "body text medium",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 34,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 34,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextMediumLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text medium",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextMediumParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text medium",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextMediumParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text medium",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextMediumTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text medium",
-            "textCase"
-          ]
-        }
-      },
-      "body text small": {
-        "category": "font",
-        "fontSize": {
-          "value": 15,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 15,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextSmallFontSize",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextSmallTextDecoration",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextSmallFontFamily",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "number",
-          "original": {
-            "value": 400,
-            "type": "number"
-          },
-          "name": "DesktopBodyBodyTextSmallFontWeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextSmallFontStyle",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextSmallFontStretch",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Regular",
-          "type": "string",
-          "original": {
-            "value": "Regular",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextSmallFontStyleOld",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.75,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.75,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextSmallLetterSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 24,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 24,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextSmallLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextSmallParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextSmallParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextSmallTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text small",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text small",
-            "textCase"
-          ]
-        }
-      },
-      "body text x-small": {
-        "category": "font",
-        "fontSize": {
-          "value": 13,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 13,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextXSmallFontSize",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextXSmallTextDecoration",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextXSmallFontFamily",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 500,
-          "type": "number",
-          "original": {
-            "value": 500,
-            "type": "number"
-          },
-          "name": "DesktopBodyBodyTextXSmallFontWeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextXSmallFontStyle",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextXSmallFontStretch",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Medium",
-          "type": "string",
-          "original": {
-            "value": "Medium",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextXSmallFontStyleOld",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.25,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.25,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextXSmallLetterSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 22,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 22,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyTextXSmallLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextXSmallParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyTextXSmallParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyTextXSmallTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body text x-small",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body text x-small",
-            "textCase"
-          ]
-        }
-      },
-      "body link large": {
-        "category": "font",
-        "fontSize": {
-          "value": 20,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 20,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkLargeFontSize",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkLargeTextDecoration",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkLargeFontFamily",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 600,
-          "type": "number",
-          "original": {
-            "value": 600,
-            "type": "number"
-          },
-          "name": "DesktopBodyBodyLinkLargeFontWeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkLargeFontStyle",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkLargeFontStretch",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "SemiBold",
-          "type": "string",
-          "original": {
-            "value": "SemiBold",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkLargeFontStyleOld",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.75,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.75,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyLinkLargeLetterSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 38,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 38,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "DesktopBodyBodyLinkLargeLineHeight",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkLargeParagraphIndent",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "DesktopBodyBodyLinkLargeParagraphSpacing",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "DesktopBodyBodyLinkLargeTextCase",
-          "attributes": {
-            "category": "desktop",
-            "type": "body",
-            "item": "body link large",
-            "subitem": "textCase"
-          },
-          "path": [
-            "desktop",
-            "body",
-            "body link large",
-            "textCase"
-          ]
-        }
-      }
-    }
-  },
-  "mobile": {
-    "body": {
-      "body link x-small": {
-        "category": "font",
-        "fontSize": {
-          "value": 13,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 13,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyLinkXSmallFontSize",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontSize"
-          },
-          "path": [
+            "typography",
             "mobile",
-            "body",
-            "body link x-small",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyLinkXSmallTextDecoration",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyLinkXSmallFontFamily",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 700,
-          "type": "number",
-          "original": {
-            "value": 700,
-            "type": "number"
-          },
-          "name": "MobileBodyBodyLinkXSmallFontWeight",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyLinkXSmallFontStyle",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyLinkXSmallFontStretch",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Bold",
-          "type": "string",
-          "original": {
-            "value": "Bold",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyLinkXSmallFontStyleOld",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.25,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.25,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "MobileBodyBodyLinkXSmallLetterSpacing",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 22,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 22,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "MobileBodyBodyLinkXSmallLineHeight",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyLinkXSmallParagraphIndent",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyLinkXSmallParagraphSpacing",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyLinkXSmallTextCase",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body link x-small",
-            "subitem": "textCase"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body link x-small",
-            "textCase"
-          ]
-        }
-      },
-      "body text large": {
-        "category": "font",
-        "fontSize": {
-          "value": 20,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 20,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyTextLargeFontSize",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextLargeTextDecoration",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextLargeFontFamily",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "number",
-          "original": {
-            "value": 400,
-            "type": "number"
-          },
-          "name": "MobileBodyBodyTextLargeFontWeight",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextLargeFontStyle",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextLargeFontStretch",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Regular",
-          "type": "string",
-          "original": {
-            "value": "Regular",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextLargeFontStyleOld",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.75,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.75,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "MobileBodyBodyTextLargeLetterSpacing",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "letterSpacing"
-          ]
-        },
-        "lineHeight": {
-          "value": 32,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 32,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "MobileBodyBodyTextLargeLineHeight",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "lineHeight"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "lineHeight"
-          ]
-        },
-        "paragraphIndent": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyTextLargeParagraphIndent",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "paragraphIndent"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "paragraphIndent"
-          ]
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyTextLargeParagraphSpacing",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "paragraphSpacing"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "paragraphSpacing"
-          ]
-        },
-        "textCase": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextLargeTextCase",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text large",
-            "subitem": "textCase"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text large",
-            "textCase"
-          ]
-        }
-      },
-      "body text medium": {
-        "category": "font",
-        "fontSize": {
-          "value": 17,
-          "type": "number",
-          "unit": "pixel",
-          "original": {
-            "value": 17,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "name": "MobileBodyBodyTextMediumFontSize",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "fontSize"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "fontSize"
-          ]
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "string",
-          "original": {
-            "value": "none",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextMediumTextDecoration",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "textDecoration"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "textDecoration"
-          ]
-        },
-        "fontFamily": {
-          "value": "Poppins",
-          "type": "string",
-          "original": {
-            "value": "Poppins",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextMediumFontFamily",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "fontFamily"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "fontFamily"
-          ]
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "number",
-          "original": {
-            "value": 400,
-            "type": "number"
-          },
-          "name": "MobileBodyBodyTextMediumFontWeight",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "fontWeight"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "fontWeight"
-          ]
-        },
-        "fontStyle": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextMediumFontStyle",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "fontStyle"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "fontStyle"
-          ]
-        },
-        "fontStretch": {
-          "value": "normal",
-          "type": "string",
-          "original": {
-            "value": "normal",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextMediumFontStretch",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "fontStretch"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "fontStretch"
-          ]
-        },
-        "_fontStyleOld": {
-          "value": "Regular",
-          "type": "string",
-          "original": {
-            "value": "Regular",
-            "type": "string"
-          },
-          "name": "MobileBodyBodyTextMediumFontStyleOld",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "_fontStyleOld"
-          },
-          "path": [
-            "mobile",
-            "body",
-            "body text medium",
-            "_fontStyleOld"
-          ]
-        },
-        "letterSpacing": {
-          "value": 0.75,
-          "type": "number",
-          "unit": "pixels",
-          "original": {
-            "value": 0.75,
-            "type": "number",
-            "unit": "pixels"
-          },
-          "name": "MobileBodyBodyTextMediumLetterSpacing",
-          "attributes": {
-            "category": "mobile",
-            "type": "body",
-            "item": "body text medium",
-            "subitem": "letterSpacing"
-          },
-          "path": [
-            "mobile",
-            "body",
             "body text medium",
             "letterSpacing"
           ]
@@ -8319,16 +8119,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyTextMediumLineHeight",
+          "name": "TypographyMobileBodyTextMediumLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text medium",
             "lineHeight"
           ]
@@ -8342,16 +8142,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextMediumParagraphIndent",
+          "name": "TypographyMobileBodyTextMediumParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text medium",
             "paragraphIndent"
           ]
@@ -8365,16 +8165,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextMediumParagraphSpacing",
+          "name": "TypographyMobileBodyTextMediumParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text medium",
             "paragraphSpacing"
           ]
@@ -8386,16 +8186,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextMediumTextCase",
+          "name": "TypographyMobileBodyTextMediumTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text medium",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text medium",
             "textCase"
           ]
@@ -8412,16 +8212,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextSmallFontSize",
+          "name": "TypographyMobileBodyTextSmallFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "fontSize"
           ]
@@ -8433,16 +8233,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextSmallTextDecoration",
+          "name": "TypographyMobileBodyTextSmallTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "textDecoration"
           ]
@@ -8454,16 +8254,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextSmallFontFamily",
+          "name": "TypographyMobileBodyTextSmallFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "fontFamily"
           ]
@@ -8475,16 +8275,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "MobileBodyBodyTextSmallFontWeight",
+          "name": "TypographyMobileBodyTextSmallFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "fontWeight"
           ]
@@ -8496,16 +8296,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextSmallFontStyle",
+          "name": "TypographyMobileBodyTextSmallFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "fontStyle"
           ]
@@ -8517,16 +8317,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextSmallFontStretch",
+          "name": "TypographyMobileBodyTextSmallFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "fontStretch"
           ]
@@ -8538,16 +8338,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextSmallFontStyleOld",
+          "name": "TypographyMobileBodyTextSmallFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "_fontStyleOld"
           ]
@@ -8561,16 +8361,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyTextSmallLetterSpacing",
+          "name": "TypographyMobileBodyTextSmallLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "letterSpacing"
           ]
@@ -8584,16 +8384,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyTextSmallLineHeight",
+          "name": "TypographyMobileBodyTextSmallLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "lineHeight"
           ]
@@ -8607,16 +8407,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextSmallParagraphIndent",
+          "name": "TypographyMobileBodyTextSmallParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "paragraphIndent"
           ]
@@ -8630,16 +8430,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextSmallParagraphSpacing",
+          "name": "TypographyMobileBodyTextSmallParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "paragraphSpacing"
           ]
@@ -8651,16 +8451,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextSmallTextCase",
+          "name": "TypographyMobileBodyTextSmallTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text small",
             "textCase"
           ]
@@ -8677,16 +8477,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextXSmallFontSize",
+          "name": "TypographyMobileBodyTextXSmallFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "fontSize"
           ]
@@ -8698,16 +8498,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextXSmallTextDecoration",
+          "name": "TypographyMobileBodyTextXSmallTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "textDecoration"
           ]
@@ -8719,16 +8519,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextXSmallFontFamily",
+          "name": "TypographyMobileBodyTextXSmallFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "fontFamily"
           ]
@@ -8740,16 +8540,16 @@ module.exports = {
             "value": 500,
             "type": "number"
           },
-          "name": "MobileBodyBodyTextXSmallFontWeight",
+          "name": "TypographyMobileBodyTextXSmallFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "fontWeight"
           ]
@@ -8761,16 +8561,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextXSmallFontStyle",
+          "name": "TypographyMobileBodyTextXSmallFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "fontStyle"
           ]
@@ -8782,16 +8582,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextXSmallFontStretch",
+          "name": "TypographyMobileBodyTextXSmallFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "fontStretch"
           ]
@@ -8803,16 +8603,16 @@ module.exports = {
             "value": "Medium",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextXSmallFontStyleOld",
+          "name": "TypographyMobileBodyTextXSmallFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "_fontStyleOld"
           ]
@@ -8826,16 +8626,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyTextXSmallLetterSpacing",
+          "name": "TypographyMobileBodyTextXSmallLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "letterSpacing"
           ]
@@ -8849,16 +8649,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyTextXSmallLineHeight",
+          "name": "TypographyMobileBodyTextXSmallLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "lineHeight"
           ]
@@ -8872,16 +8672,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextXSmallParagraphIndent",
+          "name": "TypographyMobileBodyTextXSmallParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "paragraphIndent"
           ]
@@ -8895,16 +8695,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyTextXSmallParagraphSpacing",
+          "name": "TypographyMobileBodyTextXSmallParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "paragraphSpacing"
           ]
@@ -8916,16 +8716,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyTextXSmallTextCase",
+          "name": "TypographyMobileBodyTextXSmallTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body text x-small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body text x-small",
             "textCase"
           ]
@@ -8942,16 +8742,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkLargeFontSize",
+          "name": "TypographyMobileBodyLinkLargeFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "fontSize"
           ]
@@ -8963,16 +8763,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkLargeTextDecoration",
+          "name": "TypographyMobileBodyLinkLargeTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "textDecoration"
           ]
@@ -8984,16 +8784,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkLargeFontFamily",
+          "name": "TypographyMobileBodyLinkLargeFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "fontFamily"
           ]
@@ -9005,16 +8805,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileBodyBodyLinkLargeFontWeight",
+          "name": "TypographyMobileBodyLinkLargeFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "fontWeight"
           ]
@@ -9026,16 +8826,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkLargeFontStyle",
+          "name": "TypographyMobileBodyLinkLargeFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "fontStyle"
           ]
@@ -9047,16 +8847,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkLargeFontStretch",
+          "name": "TypographyMobileBodyLinkLargeFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "fontStretch"
           ]
@@ -9068,16 +8868,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkLargeFontStyleOld",
+          "name": "TypographyMobileBodyLinkLargeFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "_fontStyleOld"
           ]
@@ -9091,16 +8891,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyLinkLargeLetterSpacing",
+          "name": "TypographyMobileBodyLinkLargeLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "letterSpacing"
           ]
@@ -9114,16 +8914,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyLinkLargeLineHeight",
+          "name": "TypographyMobileBodyLinkLargeLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "lineHeight"
           ]
@@ -9137,16 +8937,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkLargeParagraphIndent",
+          "name": "TypographyMobileBodyLinkLargeParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "paragraphIndent"
           ]
@@ -9160,16 +8960,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkLargeParagraphSpacing",
+          "name": "TypographyMobileBodyLinkLargeParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "paragraphSpacing"
           ]
@@ -9181,16 +8981,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkLargeTextCase",
+          "name": "TypographyMobileBodyLinkLargeTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link large",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link large",
             "textCase"
           ]
@@ -9207,16 +9007,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkMediumFontSize",
+          "name": "TypographyMobileBodyLinkMediumFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "fontSize"
           ]
@@ -9228,16 +9028,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkMediumTextDecoration",
+          "name": "TypographyMobileBodyLinkMediumTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "textDecoration"
           ]
@@ -9249,16 +9049,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkMediumFontFamily",
+          "name": "TypographyMobileBodyLinkMediumFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "fontFamily"
           ]
@@ -9270,16 +9070,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileBodyBodyLinkMediumFontWeight",
+          "name": "TypographyMobileBodyLinkMediumFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "fontWeight"
           ]
@@ -9291,16 +9091,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkMediumFontStyle",
+          "name": "TypographyMobileBodyLinkMediumFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "fontStyle"
           ]
@@ -9312,16 +9112,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkMediumFontStretch",
+          "name": "TypographyMobileBodyLinkMediumFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "fontStretch"
           ]
@@ -9333,16 +9133,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkMediumFontStyleOld",
+          "name": "TypographyMobileBodyLinkMediumFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "_fontStyleOld"
           ]
@@ -9356,16 +9156,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyLinkMediumLetterSpacing",
+          "name": "TypographyMobileBodyLinkMediumLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "letterSpacing"
           ]
@@ -9379,16 +9179,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyLinkMediumLineHeight",
+          "name": "TypographyMobileBodyLinkMediumLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "lineHeight"
           ]
@@ -9402,16 +9202,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkMediumParagraphIndent",
+          "name": "TypographyMobileBodyLinkMediumParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "paragraphIndent"
           ]
@@ -9425,16 +9225,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkMediumParagraphSpacing",
+          "name": "TypographyMobileBodyLinkMediumParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
             "paragraphSpacing"
           ]
@@ -9446,17 +9246,282 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkMediumTextCase",
+          "name": "TypographyMobileBodyLinkMediumTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link medium",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link medium",
+            "textCase"
+          ]
+        }
+      },
+      "body link x-small": {
+        "category": "font",
+        "fontSize": {
+          "value": 13,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 13,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyMobileBodyLinkXSmallFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "fontSize"
+          ]
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyMobileBodyLinkXSmallTextDecoration",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "textDecoration"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "textDecoration"
+          ]
+        },
+        "fontFamily": {
+          "value": "Poppins",
+          "type": "string",
+          "original": {
+            "value": "Poppins",
+            "type": "string"
+          },
+          "name": "TypographyMobileBodyLinkXSmallFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "number",
+          "original": {
+            "value": 700,
+            "type": "number"
+          },
+          "name": "TypographyMobileBodyLinkXSmallFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "fontWeight"
+          ]
+        },
+        "fontStyle": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyMobileBodyLinkXSmallFontStyle",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "fontStyle"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "fontStyle"
+          ]
+        },
+        "fontStretch": {
+          "value": "normal",
+          "type": "string",
+          "original": {
+            "value": "normal",
+            "type": "string"
+          },
+          "name": "TypographyMobileBodyLinkXSmallFontStretch",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "fontStretch"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "fontStretch"
+          ]
+        },
+        "_fontStyleOld": {
+          "value": "Bold",
+          "type": "string",
+          "original": {
+            "value": "Bold",
+            "type": "string"
+          },
+          "name": "TypographyMobileBodyLinkXSmallFontStyleOld",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "_fontStyleOld"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "_fontStyleOld"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.25,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 0.25,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyMobileBodyLinkXSmallLetterSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 22,
+          "type": "number",
+          "unit": "pixels",
+          "original": {
+            "value": 22,
+            "type": "number",
+            "unit": "pixels"
+          },
+          "name": "TypographyMobileBodyLinkXSmallLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "lineHeight"
+          ]
+        },
+        "paragraphIndent": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyMobileBodyLinkXSmallParagraphIndent",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "paragraphIndent"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "paragraphIndent"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel",
+          "original": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "name": "TypographyMobileBodyLinkXSmallParagraphSpacing",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "paragraphSpacing"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
+            "paragraphSpacing"
+          ]
+        },
+        "textCase": {
+          "value": "none",
+          "type": "string",
+          "original": {
+            "value": "none",
+            "type": "string"
+          },
+          "name": "TypographyMobileBodyLinkXSmallTextCase",
+          "attributes": {
+            "category": "typography",
+            "type": "mobile",
+            "item": "body link x-small",
+            "subitem": "textCase"
+          },
+          "path": [
+            "typography",
+            "mobile",
+            "body link x-small",
             "textCase"
           ]
         }
@@ -9472,16 +9537,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkSmallFontSize",
+          "name": "TypographyMobileBodyLinkSmallFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "fontSize"
           ]
@@ -9493,16 +9558,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkSmallTextDecoration",
+          "name": "TypographyMobileBodyLinkSmallTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "textDecoration"
           ]
@@ -9514,16 +9579,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkSmallFontFamily",
+          "name": "TypographyMobileBodyLinkSmallFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "fontFamily"
           ]
@@ -9535,16 +9600,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileBodyBodyLinkSmallFontWeight",
+          "name": "TypographyMobileBodyLinkSmallFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "fontWeight"
           ]
@@ -9556,16 +9621,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkSmallFontStyle",
+          "name": "TypographyMobileBodyLinkSmallFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "fontStyle"
           ]
@@ -9577,16 +9642,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkSmallFontStretch",
+          "name": "TypographyMobileBodyLinkSmallFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "fontStretch"
           ]
@@ -9598,16 +9663,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkSmallFontStyleOld",
+          "name": "TypographyMobileBodyLinkSmallFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "_fontStyleOld"
           ]
@@ -9621,16 +9686,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyLinkSmallLetterSpacing",
+          "name": "TypographyMobileBodyLinkSmallLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "letterSpacing"
           ]
@@ -9644,16 +9709,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileBodyBodyLinkSmallLineHeight",
+          "name": "TypographyMobileBodyLinkSmallLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "lineHeight"
           ]
@@ -9667,16 +9732,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkSmallParagraphIndent",
+          "name": "TypographyMobileBodyLinkSmallParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "paragraphIndent"
           ]
@@ -9690,16 +9755,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileBodyBodyLinkSmallParagraphSpacing",
+          "name": "TypographyMobileBodyLinkSmallParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "paragraphSpacing"
           ]
@@ -9711,23 +9776,21 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileBodyBodyLinkSmallTextCase",
+          "name": "TypographyMobileBodyLinkSmallTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "body",
+            "category": "typography",
+            "type": "mobile",
             "item": "body link small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "body",
             "body link small",
             "textCase"
           ]
         }
-      }
-    },
-    "display": {
+      },
       "display huge": {
         "category": "font",
         "fontSize": {
@@ -9739,16 +9802,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayHugeFontSize",
+          "name": "TypographyMobileDisplayHugeFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "fontSize"
           ]
@@ -9760,16 +9823,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeTextDecoration",
+          "name": "TypographyMobileDisplayHugeTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "textDecoration"
           ]
@@ -9781,16 +9844,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeFontFamily",
+          "name": "TypographyMobileDisplayHugeFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "fontFamily"
           ]
@@ -9802,16 +9865,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "MobileDisplayDisplayHugeFontWeight",
+          "name": "TypographyMobileDisplayHugeFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "fontWeight"
           ]
@@ -9823,16 +9886,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeFontStyle",
+          "name": "TypographyMobileDisplayHugeFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "fontStyle"
           ]
@@ -9844,16 +9907,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeFontStretch",
+          "name": "TypographyMobileDisplayHugeFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "fontStretch"
           ]
@@ -9865,16 +9928,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeFontStyleOld",
+          "name": "TypographyMobileDisplayHugeFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "_fontStyleOld"
           ]
@@ -9888,16 +9951,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayHugeLetterSpacing",
+          "name": "TypographyMobileDisplayHugeLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "letterSpacing"
           ]
@@ -9911,16 +9974,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayHugeLineHeight",
+          "name": "TypographyMobileDisplayHugeLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "lineHeight"
           ]
@@ -9934,16 +9997,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayHugeParagraphIndent",
+          "name": "TypographyMobileDisplayHugeParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "paragraphIndent"
           ]
@@ -9957,16 +10020,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayHugeParagraphSpacing",
+          "name": "TypographyMobileDisplayHugeParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "paragraphSpacing"
           ]
@@ -9978,16 +10041,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeTextCase",
+          "name": "TypographyMobileDisplayHugeTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge",
             "textCase"
           ]
@@ -10004,16 +10067,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayLargeFontSize",
+          "name": "TypographyMobileDisplayLargeFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "fontSize"
           ]
@@ -10025,16 +10088,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeTextDecoration",
+          "name": "TypographyMobileDisplayLargeTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "textDecoration"
           ]
@@ -10046,16 +10109,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeFontFamily",
+          "name": "TypographyMobileDisplayLargeFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "fontFamily"
           ]
@@ -10067,16 +10130,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "MobileDisplayDisplayLargeFontWeight",
+          "name": "TypographyMobileDisplayLargeFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "fontWeight"
           ]
@@ -10088,16 +10151,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeFontStyle",
+          "name": "TypographyMobileDisplayLargeFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "fontStyle"
           ]
@@ -10109,16 +10172,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeFontStretch",
+          "name": "TypographyMobileDisplayLargeFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "fontStretch"
           ]
@@ -10130,16 +10193,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeFontStyleOld",
+          "name": "TypographyMobileDisplayLargeFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "_fontStyleOld"
           ]
@@ -10153,16 +10216,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayLargeLetterSpacing",
+          "name": "TypographyMobileDisplayLargeLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "letterSpacing"
           ]
@@ -10176,16 +10239,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayLargeLineHeight",
+          "name": "TypographyMobileDisplayLargeLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "lineHeight"
           ]
@@ -10199,16 +10262,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayLargeParagraphIndent",
+          "name": "TypographyMobileDisplayLargeParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "paragraphIndent"
           ]
@@ -10222,16 +10285,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayLargeParagraphSpacing",
+          "name": "TypographyMobileDisplayLargeParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "paragraphSpacing"
           ]
@@ -10243,16 +10306,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeTextCase",
+          "name": "TypographyMobileDisplayLargeTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large",
             "textCase"
           ]
@@ -10269,16 +10332,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayMediumFontSize",
+          "name": "TypographyMobileDisplayMediumFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "fontSize"
           ]
@@ -10290,16 +10353,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumTextDecoration",
+          "name": "TypographyMobileDisplayMediumTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "textDecoration"
           ]
@@ -10311,16 +10374,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumFontFamily",
+          "name": "TypographyMobileDisplayMediumFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "fontFamily"
           ]
@@ -10332,16 +10395,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "MobileDisplayDisplayMediumFontWeight",
+          "name": "TypographyMobileDisplayMediumFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "fontWeight"
           ]
@@ -10353,16 +10416,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumFontStyle",
+          "name": "TypographyMobileDisplayMediumFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "fontStyle"
           ]
@@ -10374,16 +10437,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumFontStretch",
+          "name": "TypographyMobileDisplayMediumFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "fontStretch"
           ]
@@ -10395,16 +10458,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumFontStyleOld",
+          "name": "TypographyMobileDisplayMediumFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "_fontStyleOld"
           ]
@@ -10418,16 +10481,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayMediumLetterSpacing",
+          "name": "TypographyMobileDisplayMediumLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "letterSpacing"
           ]
@@ -10441,16 +10504,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayMediumLineHeight",
+          "name": "TypographyMobileDisplayMediumLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "lineHeight"
           ]
@@ -10464,16 +10527,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayMediumParagraphIndent",
+          "name": "TypographyMobileDisplayMediumParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "paragraphIndent"
           ]
@@ -10487,16 +10550,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayMediumParagraphSpacing",
+          "name": "TypographyMobileDisplayMediumParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "paragraphSpacing"
           ]
@@ -10508,16 +10571,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumTextCase",
+          "name": "TypographyMobileDisplayMediumTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium",
             "textCase"
           ]
@@ -10534,16 +10597,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplaySmallFontSize",
+          "name": "TypographyMobileDisplaySmallFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "fontSize"
           ]
@@ -10555,16 +10618,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallTextDecoration",
+          "name": "TypographyMobileDisplaySmallTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "textDecoration"
           ]
@@ -10576,16 +10639,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallFontFamily",
+          "name": "TypographyMobileDisplaySmallFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "fontFamily"
           ]
@@ -10597,16 +10660,16 @@ module.exports = {
             "value": 400,
             "type": "number"
           },
-          "name": "MobileDisplayDisplaySmallFontWeight",
+          "name": "TypographyMobileDisplaySmallFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "fontWeight"
           ]
@@ -10618,16 +10681,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallFontStyle",
+          "name": "TypographyMobileDisplaySmallFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "fontStyle"
           ]
@@ -10639,16 +10702,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallFontStretch",
+          "name": "TypographyMobileDisplaySmallFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "fontStretch"
           ]
@@ -10660,16 +10723,16 @@ module.exports = {
             "value": "Regular",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallFontStyleOld",
+          "name": "TypographyMobileDisplaySmallFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "_fontStyleOld"
           ]
@@ -10683,16 +10746,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplaySmallLetterSpacing",
+          "name": "TypographyMobileDisplaySmallLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "letterSpacing"
           ]
@@ -10706,16 +10769,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplaySmallLineHeight",
+          "name": "TypographyMobileDisplaySmallLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "lineHeight"
           ]
@@ -10729,16 +10792,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplaySmallParagraphIndent",
+          "name": "TypographyMobileDisplaySmallParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "paragraphIndent"
           ]
@@ -10752,16 +10815,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplaySmallParagraphSpacing",
+          "name": "TypographyMobileDisplaySmallParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "paragraphSpacing"
           ]
@@ -10773,16 +10836,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallTextCase",
+          "name": "TypographyMobileDisplaySmallTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small",
             "textCase"
           ]
@@ -10799,16 +10862,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayHugeBoldFontSize",
+          "name": "TypographyMobileDisplayHugeBoldFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "fontSize"
           ]
@@ -10820,16 +10883,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeBoldTextDecoration",
+          "name": "TypographyMobileDisplayHugeBoldTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "textDecoration"
           ]
@@ -10841,16 +10904,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeBoldFontFamily",
+          "name": "TypographyMobileDisplayHugeBoldFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "fontFamily"
           ]
@@ -10862,16 +10925,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileDisplayDisplayHugeBoldFontWeight",
+          "name": "TypographyMobileDisplayHugeBoldFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "fontWeight"
           ]
@@ -10883,16 +10946,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeBoldFontStyle",
+          "name": "TypographyMobileDisplayHugeBoldFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "fontStyle"
           ]
@@ -10904,16 +10967,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeBoldFontStretch",
+          "name": "TypographyMobileDisplayHugeBoldFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "fontStretch"
           ]
@@ -10925,16 +10988,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeBoldFontStyleOld",
+          "name": "TypographyMobileDisplayHugeBoldFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "_fontStyleOld"
           ]
@@ -10948,16 +11011,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayHugeBoldLetterSpacing",
+          "name": "TypographyMobileDisplayHugeBoldLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "letterSpacing"
           ]
@@ -10971,16 +11034,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayHugeBoldLineHeight",
+          "name": "TypographyMobileDisplayHugeBoldLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "lineHeight"
           ]
@@ -10994,16 +11057,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayHugeBoldParagraphIndent",
+          "name": "TypographyMobileDisplayHugeBoldParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "paragraphIndent"
           ]
@@ -11017,16 +11080,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayHugeBoldParagraphSpacing",
+          "name": "TypographyMobileDisplayHugeBoldParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "paragraphSpacing"
           ]
@@ -11038,16 +11101,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayHugeBoldTextCase",
+          "name": "TypographyMobileDisplayHugeBoldTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display huge bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display huge bold",
             "textCase"
           ]
@@ -11064,16 +11127,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayLargeBoldFontSize",
+          "name": "TypographyMobileDisplayLargeBoldFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "fontSize"
           ]
@@ -11085,16 +11148,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeBoldTextDecoration",
+          "name": "TypographyMobileDisplayLargeBoldTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "textDecoration"
           ]
@@ -11106,16 +11169,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeBoldFontFamily",
+          "name": "TypographyMobileDisplayLargeBoldFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "fontFamily"
           ]
@@ -11127,16 +11190,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileDisplayDisplayLargeBoldFontWeight",
+          "name": "TypographyMobileDisplayLargeBoldFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "fontWeight"
           ]
@@ -11148,16 +11211,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeBoldFontStyle",
+          "name": "TypographyMobileDisplayLargeBoldFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "fontStyle"
           ]
@@ -11169,16 +11232,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeBoldFontStretch",
+          "name": "TypographyMobileDisplayLargeBoldFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "fontStretch"
           ]
@@ -11190,16 +11253,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeBoldFontStyleOld",
+          "name": "TypographyMobileDisplayLargeBoldFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "_fontStyleOld"
           ]
@@ -11213,16 +11276,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayLargeBoldLetterSpacing",
+          "name": "TypographyMobileDisplayLargeBoldLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "letterSpacing"
           ]
@@ -11236,16 +11299,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayLargeBoldLineHeight",
+          "name": "TypographyMobileDisplayLargeBoldLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "lineHeight"
           ]
@@ -11259,16 +11322,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayLargeBoldParagraphIndent",
+          "name": "TypographyMobileDisplayLargeBoldParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "paragraphIndent"
           ]
@@ -11282,16 +11345,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayLargeBoldParagraphSpacing",
+          "name": "TypographyMobileDisplayLargeBoldParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "paragraphSpacing"
           ]
@@ -11303,16 +11366,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayLargeBoldTextCase",
+          "name": "TypographyMobileDisplayLargeBoldTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display large bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display large bold",
             "textCase"
           ]
@@ -11329,16 +11392,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayMediumBoldFontSize",
+          "name": "TypographyMobileDisplayMediumBoldFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "fontSize"
           ]
@@ -11350,16 +11413,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumBoldTextDecoration",
+          "name": "TypographyMobileDisplayMediumBoldTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "textDecoration"
           ]
@@ -11371,16 +11434,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumBoldFontFamily",
+          "name": "TypographyMobileDisplayMediumBoldFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "fontFamily"
           ]
@@ -11392,16 +11455,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileDisplayDisplayMediumBoldFontWeight",
+          "name": "TypographyMobileDisplayMediumBoldFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "fontWeight"
           ]
@@ -11413,16 +11476,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumBoldFontStyle",
+          "name": "TypographyMobileDisplayMediumBoldFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "fontStyle"
           ]
@@ -11434,16 +11497,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumBoldFontStretch",
+          "name": "TypographyMobileDisplayMediumBoldFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "fontStretch"
           ]
@@ -11455,16 +11518,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumBoldFontStyleOld",
+          "name": "TypographyMobileDisplayMediumBoldFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "_fontStyleOld"
           ]
@@ -11478,16 +11541,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayMediumBoldLetterSpacing",
+          "name": "TypographyMobileDisplayMediumBoldLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "letterSpacing"
           ]
@@ -11501,16 +11564,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplayMediumBoldLineHeight",
+          "name": "TypographyMobileDisplayMediumBoldLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "lineHeight"
           ]
@@ -11524,16 +11587,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayMediumBoldParagraphIndent",
+          "name": "TypographyMobileDisplayMediumBoldParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "paragraphIndent"
           ]
@@ -11547,16 +11610,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplayMediumBoldParagraphSpacing",
+          "name": "TypographyMobileDisplayMediumBoldParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "paragraphSpacing"
           ]
@@ -11568,16 +11631,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplayMediumBoldTextCase",
+          "name": "TypographyMobileDisplayMediumBoldTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display medium bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display medium bold",
             "textCase"
           ]
@@ -11594,16 +11657,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplaySmallBoldFontSize",
+          "name": "TypographyMobileDisplaySmallBoldFontSize",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "fontSize"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "fontSize"
           ]
@@ -11615,16 +11678,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallBoldTextDecoration",
+          "name": "TypographyMobileDisplaySmallBoldTextDecoration",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "textDecoration"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "textDecoration"
           ]
@@ -11636,16 +11699,16 @@ module.exports = {
             "value": "Poppins",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallBoldFontFamily",
+          "name": "TypographyMobileDisplaySmallBoldFontFamily",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "fontFamily"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "fontFamily"
           ]
@@ -11657,16 +11720,16 @@ module.exports = {
             "value": 700,
             "type": "number"
           },
-          "name": "MobileDisplayDisplaySmallBoldFontWeight",
+          "name": "TypographyMobileDisplaySmallBoldFontWeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "fontWeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "fontWeight"
           ]
@@ -11678,16 +11741,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallBoldFontStyle",
+          "name": "TypographyMobileDisplaySmallBoldFontStyle",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "fontStyle"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "fontStyle"
           ]
@@ -11699,16 +11762,16 @@ module.exports = {
             "value": "normal",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallBoldFontStretch",
+          "name": "TypographyMobileDisplaySmallBoldFontStretch",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "fontStretch"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "fontStretch"
           ]
@@ -11720,16 +11783,16 @@ module.exports = {
             "value": "Bold",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallBoldFontStyleOld",
+          "name": "TypographyMobileDisplaySmallBoldFontStyleOld",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "_fontStyleOld"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "_fontStyleOld"
           ]
@@ -11743,16 +11806,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplaySmallBoldLetterSpacing",
+          "name": "TypographyMobileDisplaySmallBoldLetterSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "letterSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "letterSpacing"
           ]
@@ -11766,16 +11829,16 @@ module.exports = {
             "type": "number",
             "unit": "pixels"
           },
-          "name": "MobileDisplayDisplaySmallBoldLineHeight",
+          "name": "TypographyMobileDisplaySmallBoldLineHeight",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "lineHeight"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "lineHeight"
           ]
@@ -11789,16 +11852,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplaySmallBoldParagraphIndent",
+          "name": "TypographyMobileDisplaySmallBoldParagraphIndent",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "paragraphIndent"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "paragraphIndent"
           ]
@@ -11812,16 +11875,16 @@ module.exports = {
             "type": "number",
             "unit": "pixel"
           },
-          "name": "MobileDisplayDisplaySmallBoldParagraphSpacing",
+          "name": "TypographyMobileDisplaySmallBoldParagraphSpacing",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "paragraphSpacing"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "paragraphSpacing"
           ]
@@ -11833,16 +11896,16 @@ module.exports = {
             "value": "none",
             "type": "string"
           },
-          "name": "MobileDisplayDisplaySmallBoldTextCase",
+          "name": "TypographyMobileDisplaySmallBoldTextCase",
           "attributes": {
-            "category": "mobile",
-            "type": "display",
+            "category": "typography",
+            "type": "mobile",
             "item": "display small bold",
             "subitem": "textCase"
           },
           "path": [
+            "typography",
             "mobile",
-            "display",
             "display small bold",
             "textCase"
           ]

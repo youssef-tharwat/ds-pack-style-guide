@@ -3,13 +3,20 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Sun, 16 May 2021 17:51:33 GMT
+// Generated on Mon, 17 May 2021 20:34:02 GMT
 //
 
 
 import UIKit
 
 public class StyleDictionary {
+    public static let borders8DashPattern = 
+    public static let borders8Stroke = rgba(0, 0, 0, 1)
+    public static let borders8StrokeAlign = inside
+    public static let borders8StrokeCap = none
+    public static let borders8StrokeJoin = miter
+    public static let borders8StrokeMiterLimit = 4
+    public static let borders8StrokeWeight = 1
     public static let colorsError100 = rgba(251, 239, 239, 1)
     public static let colorsError200 = rgba(243, 204, 204, 1)
     public static let colorsError300 = rgba(243, 172, 172, 1)
@@ -501,9 +508,6 @@ public class StyleDictionary {
     public static let phoneGrid2Offset = 0
     public static let phoneGrid2Pattern = rows
     public static let phoneGrid2SectionSize = 34
-    public static let sizesInVariant48 = 48
-    public static let sizesInVariant56 = 56
-    public static let sizesInVariant64 = 64
     public static let spacing128Bottom = 10
     public static let spacing128Left = 10
     public static let spacing128Right = 10

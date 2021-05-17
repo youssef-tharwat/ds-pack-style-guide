@@ -3,16 +3,13 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Sun, 16 May 2021 17:51:33 GMT
+// Generated on Mon, 17 May 2021 20:34:02 GMT
 //
 
 #import "StyleDictionarySize.h"
 
 
 
-float const SizesInVariant64 = 64;
-float const SizesInVariant56 = 56;
-float const SizesInVariant48 = 48;
 float const Spacing2Top = 10;
 float const Spacing2Right = 10;
 float const Spacing2Bottom = 10;
@@ -65,6 +62,8 @@ float const Spacing160Top = 10;
 float const Spacing160Right = 10;
 float const Spacing160Bottom = 10;
 float const Spacing160Left = 10;
+float const Borders8StrokeMiterLimit = 4;
+float const Borders8StrokeWeight = 1;
 float const DesktopGrid0SectionSize = 72;
 float const DesktopGrid0GutterSize = 32;
 float const DesktopGrid0Count = 12;

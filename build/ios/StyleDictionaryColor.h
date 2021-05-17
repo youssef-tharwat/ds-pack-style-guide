@@ -3,13 +3,14 @@
 // StyleDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Sun, 16 May 2021 17:51:33 GMT
+// Generated on Mon, 17 May 2021 20:34:02 GMT
 //
 
 #import <UIKit/UIKit.h>
 
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+Borders8Stroke,
 ColorsGrayscale50,
 ColorsGrayscale100,
 ColorsGrayscale200,

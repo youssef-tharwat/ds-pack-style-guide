@@ -1,74 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Sun, 16 May 2021 17:51:33 GMT
+ * Generated on Mon, 17 May 2021 20:34:02 GMT
  */
 
 module.exports = {
-  "sizes": {
-    "in variant 64": {
-      "category": "size",
-      "value": 64,
-      "type": "number",
-      "unit": "pixel",
-      "original": {
-        "category": "size",
-        "value": 64,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "name": "SizesInVariant64",
-      "attributes": {
-        "category": "sizes",
-        "type": "in variant 64"
-      },
-      "path": [
-        "sizes",
-        "in variant 64"
-      ]
-    },
-    "in variant 56": {
-      "category": "size",
-      "value": 56,
-      "type": "number",
-      "unit": "pixel",
-      "original": {
-        "category": "size",
-        "value": 56,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "name": "SizesInVariant56",
-      "attributes": {
-        "category": "sizes",
-        "type": "in variant 56"
-      },
-      "path": [
-        "sizes",
-        "in variant 56"
-      ]
-    },
-    "in variant 48": {
-      "category": "size",
-      "value": 48,
-      "type": "number",
-      "unit": "pixel",
-      "original": {
-        "category": "size",
-        "value": 48,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "name": "SizesInVariant48",
-      "attributes": {
-        "category": "sizes",
-        "type": "in variant 48"
-      },
-      "path": [
-        "sizes",
-        "in variant 48"
-      ]
-    }
-  },
   "spacing": {
     "2": {
       "category": "spacing",
@@ -1198,6 +1133,148 @@ module.exports = {
           "spacing",
           "160",
           "left"
+        ]
+      }
+    }
+  },
+  "borders": {
+    "8": {
+      "category": "border",
+      "strokeAlign": {
+        "value": "inside",
+        "type": "string",
+        "original": {
+          "value": "inside",
+          "type": "string"
+        },
+        "name": "Borders8StrokeAlign",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "strokeAlign"
+        },
+        "path": [
+          "borders",
+          "8",
+          "strokeAlign"
+        ]
+      },
+      "dashPattern": {
+        "value": "",
+        "type": "string",
+        "original": {
+          "value": "",
+          "type": "string"
+        },
+        "name": "Borders8DashPattern",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "dashPattern"
+        },
+        "path": [
+          "borders",
+          "8",
+          "dashPattern"
+        ]
+      },
+      "strokeCap": {
+        "value": "none",
+        "type": "string",
+        "original": {
+          "value": "none",
+          "type": "string"
+        },
+        "name": "Borders8StrokeCap",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "strokeCap"
+        },
+        "path": [
+          "borders",
+          "8",
+          "strokeCap"
+        ]
+      },
+      "strokeJoin": {
+        "value": "miter",
+        "type": "string",
+        "original": {
+          "value": "miter",
+          "type": "string"
+        },
+        "name": "Borders8StrokeJoin",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "strokeJoin"
+        },
+        "path": [
+          "borders",
+          "8",
+          "strokeJoin"
+        ]
+      },
+      "strokeMiterLimit": {
+        "value": 4,
+        "type": "number",
+        "unit": "degree",
+        "original": {
+          "value": 4,
+          "type": "number",
+          "unit": "degree"
+        },
+        "name": "Borders8StrokeMiterLimit",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "strokeMiterLimit"
+        },
+        "path": [
+          "borders",
+          "8",
+          "strokeMiterLimit"
+        ]
+      },
+      "strokeWeight": {
+        "value": 1,
+        "type": "number",
+        "unit": "pixel",
+        "original": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "name": "Borders8StrokeWeight",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "strokeWeight"
+        },
+        "path": [
+          "borders",
+          "8",
+          "strokeWeight"
+        ]
+      },
+      "stroke": {
+        "value": "rgba(0, 0, 0, 1)",
+        "type": "color",
+        "original": {
+          "value": "rgba(0, 0, 0, 1)",
+          "type": "color"
+        },
+        "name": "Borders8Stroke",
+        "attributes": {
+          "category": "borders",
+          "type": "8",
+          "item": "stroke"
+        },
+        "path": [
+          "borders",
+          "8",
+          "stroke"
         ]
       }
     }

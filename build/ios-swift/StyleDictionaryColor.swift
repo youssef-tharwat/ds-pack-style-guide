@@ -3,12 +3,13 @@
 // StyleDictionaryColor.swift
 //
 // Do not edit directly
-// Generated on Sun, 16 May 2021 17:51:33 GMT
+// Generated on Mon, 17 May 2021 20:34:02 GMT
 //
 
 import UIKit
 
 public enum StyleDictionaryColor {
+    public static let 8Stroke = rgba(0, 0, 0, 1)
     public static let error100 = rgba(251, 239, 239, 1)
     public static let error200 = rgba(243, 204, 204, 1)
     public static let error300 = rgba(243, 172, 172, 1)

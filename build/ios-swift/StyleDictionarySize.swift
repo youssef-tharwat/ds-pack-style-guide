@@ -3,12 +3,14 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Sun, 16 May 2021 17:51:33 GMT
+// Generated on Mon, 17 May 2021 20:34:02 GMT
 //
 
 import UIKit
 
 public enum StyleDictionarySize {
+    public static let 8StrokeMiterLimit = 4
+    public static let 8StrokeWeight = 1
     public static let 0Count = 12
     public static let 0GutterSize = 32
     public static let 0SectionSize = 72
@@ -244,9 +246,6 @@ public enum StyleDictionarySize {
     public static let 2GutterSize = 20
     public static let 2Offset = 0
     public static let 2SectionSize = 34
-    public static let inVariant48 = 48
-    public static let inVariant56 = 56
-    public static let inVariant64 = 64
     public static let 128Bottom = 10
     public static let 128Left = 10
     public static let 128Right = 10

@@ -2,16 +2,13 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Sun, 16 May 2021 17:51:33 GMT
+// Generated on Mon, 17 May 2021 20:34:02 GMT
 //
 
 #import <Foundation/Foundation.h>
 
 
 
-extern float const SizesInVariant64;
-extern float const SizesInVariant56;
-extern float const SizesInVariant48;
 extern float const Spacing2Top;
 extern float const Spacing2Right;
 extern float const Spacing2Bottom;
@@ -64,6 +61,8 @@ extern float const Spacing160Top;
 extern float const Spacing160Right;
 extern float const Spacing160Bottom;
 extern float const Spacing160Left;
+extern float const Borders8StrokeMiterLimit;
+extern float const Borders8StrokeWeight;
 extern float const DesktopGrid0SectionSize;
 extern float const DesktopGrid0GutterSize;
 extern float const DesktopGrid0Count;
